@@ -1,0 +1,68 @@
+[7.099s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed
+[9.409s] running egg_info
+[9.432s] creating ../../build/sub_sonar/sub_sonar.egg-info
+[9.440s] writing ../../build/sub_sonar/sub_sonar.egg-info/PKG-INFO
+[9.445s] writing dependency_links to ../../build/sub_sonar/sub_sonar.egg-info/dependency_links.txt
+[9.448s] writing entry points to ../../build/sub_sonar/sub_sonar.egg-info/entry_points.txt
+[9.451s] writing requirements to ../../build/sub_sonar/sub_sonar.egg-info/requires.txt
+[9.453s] writing top-level names to ../../build/sub_sonar/sub_sonar.egg-info/top_level.txt
+[9.457s] writing manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'
+[9.474s] reading manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'
+[9.482s] writing manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'
+[9.488s] running build
+[9.490s] running build_py
+[9.503s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build
+[9.515s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib
+[9.517s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar
+[9.523s] copying sub_sonar/sonar_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar
+[9.527s] copying sub_sonar/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar
+[9.532s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.535s] copying sub_sonar/submodules/Clustering.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.539s] copying sub_sonar/submodules/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.545s] copying sub_sonar/submodules/Traitement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.549s] copying sub_sonar/submodules/Positionnement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.552s] copying sub_sonar/submodules/PostTraitement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.555s] copying sub_sonar/submodules/Coordonnée.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.558s] copying sub_sonar/submodules/RotationScann.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.561s] copying sub_sonar/submodules/Sonar_ROS.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.564s] copying sub_sonar/submodules/RANSAC_Algo.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules
+[9.570s] running install
+[9.573s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.574s]   warnings.warn(
+[9.578s] running install_lib
+[9.585s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar
+[9.612s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/sonar_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar
+[9.616s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar
+[9.620s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.623s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/Clustering.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.632s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.637s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/Traitement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.643s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/Positionnement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.644s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/PostTraitement.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.646s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/Coordonnée.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.649s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/RotationScann.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.650s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/Sonar_ROS.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.656s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build/lib/sub_sonar/submodules/RANSAC_Algo.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules
+[9.657s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/sonar_node.py to sonar_node.cpython-310.pyc
+[9.671s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/__init__.py to __init__.cpython-310.pyc
+[9.673s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/Clustering.py to Clustering.cpython-310.pyc
+[9.677s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/__init__.py to __init__.cpython-310.pyc
+[9.679s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/Traitement.py to Traitement.cpython-310.pyc
+[9.686s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/Positionnement.py to Positionnement.cpython-310.pyc
+[9.703s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/PostTraitement.py to PostTraitement.cpython-310.pyc
+[9.733s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/Coordonnée.py to Coordonnée.cpython-310.pyc
+[9.734s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/RotationScann.py to RotationScann.cpython-310.pyc
+[9.736s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/Sonar_ROS.py to Sonar_ROS.cpython-310.pyc
+[9.736s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar/submodules/RANSAC_Algo.py to RANSAC_Algo.cpython-310.pyc
+[9.737s] running install_data
+[9.760s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/ament_index
+[9.761s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/ament_index/resource_index
+[9.762s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/ament_index/resource_index/packages
+[9.787s] copying resource/sub_sonar -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/ament_index/resource_index/packages
+[9.789s] copying package.xml -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar
+[9.790s] running install_egg_info
+[9.791s] Copying ../../build/sub_sonar/sub_sonar.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar-0.0.0-py3.10.egg-info
+[9.792s] running install_scripts
+[9.965s] Installing sonar_scan script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/sub_sonar
+[9.969s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log'
+[10.189s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed

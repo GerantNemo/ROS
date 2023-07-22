@@ -1,0 +1,6 @@
+[ 20%] Built target guidage_sonar2
+[ 40%] Built target guidage_base
+[ 60%] Built target guidage_simple
+[ 80%] Built target guidage_sonar1
+[35m[1mConsolidate compiler generated dependencies of target guidage_sonar3[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/guidage_sonar3.dir/src/guidage_sonar3.cpp.o[0m

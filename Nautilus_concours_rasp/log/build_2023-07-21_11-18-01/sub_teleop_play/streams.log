@@ -1,0 +1,78 @@
+[0.101s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play
+[0.971s] -- The C compiler identification is GNU 11.3.0
+[1.547s] -- The CXX compiler identification is GNU 11.3.0
+[1.611s] -- Detecting C compiler ABI info
+[2.199s] -- Detecting C compiler ABI info - done
+[2.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.264s] -- Detecting C compile features
+[2.265s] -- Detecting C compile features - done
+[2.295s] -- Detecting CXX compiler ABI info
+[2.990s] -- Detecting CXX compiler ABI info - done
+[3.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.071s] -- Detecting CXX compile features
+[3.071s] -- Detecting CXX compile features - done
+[3.078s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.519s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.378s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.892s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.952s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.026s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.854s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.890s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.805s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.147s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.816s] -- Looking for pthread.h
+[9.639s] -- Looking for pthread.h - found
+[9.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.445s] -- Found Threads: TRUE  
+[11.369s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.057s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.536s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.627s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.630s] -- Configured cppcheck include dirs: /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play/include
+[13.633s] -- Configured cppcheck exclude dirs and/or files: 
+[13.639s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.646s] -- Added test 'lint_cmake' to check CMake code style
+[13.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.672s] -- Added test 'uncrustify' to check C / C++ code style
+[13.674s] -- Configured uncrustify additional arguments: 
+[13.682s] -- Added test 'xmllint' to check XML markup files
+[13.700s] -- Configuring done
+[13.915s] -- Generating done
+[13.944s] -- Build files have been written to: /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play
+[14.017s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play
+[14.035s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play -- -j4 -l4
+[14.363s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_twist_playstation.dir/src/teleop_twist_playstation.cpp.o[0m
+[86.421s] [100%] [32m[1mLinking CXX executable teleop_twist_playstation[0m
+[89.048s] [100%] Built target teleop_twist_playstation
+[89.118s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play -- -j4 -l4
+[89.288s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play
+[89.337s] -- Install configuration: ""
+[89.341s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/sub_teleop_play/teleop_twist_playstation
+[89.378s] -- Set runtime path of "/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/sub_teleop_play/teleop_twist_playstation" to ""
+[89.380s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch
+[89.383s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/sub_teleop_play_launch.py
+[89.386s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/__pycache__
+[89.388s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/__pycache__/sub_teleop_play.cpython-310.pyc
+[89.393s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//config
+[89.395s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//config/params.yaml
+[89.398s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/package_run_dependencies/sub_teleop_play
+[89.400s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/parent_prefix_path/sub_teleop_play
+[89.419s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/ament_prefix_path.sh
+[89.420s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/ament_prefix_path.dsv
+[89.430s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/path.sh
+[89.432s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/path.dsv
+[89.436s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.bash
+[89.437s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.sh
+[89.437s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.zsh
+[89.438s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.dsv
+[89.445s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.dsv
+[89.454s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/packages/sub_teleop_play
+[89.455s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/cmake/sub_teleop_playConfig.cmake
+[89.456s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/cmake/sub_teleop_playConfig-version.cmake
+[89.457s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.xml
+[89.462s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play

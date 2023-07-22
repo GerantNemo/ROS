@@ -1,0 +1,3 @@
+[console_scripts]
+etat_node = sub_etat_py.etat_node:main
+

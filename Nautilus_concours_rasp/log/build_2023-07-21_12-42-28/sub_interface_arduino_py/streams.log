@@ -1,0 +1,22 @@
+[6.867s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_interface_arduino_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log --single-version-externally-managed
+[10.856s] running egg_info
+[10.857s] writing ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/PKG-INFO
+[10.857s] writing dependency_links to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/dependency_links.txt
+[10.858s] writing entry points to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/entry_points.txt
+[10.859s] writing requirements to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/requires.txt
+[10.860s] writing top-level names to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/top_level.txt
+[10.870s] reading manifest file '../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/SOURCES.txt'
+[10.878s] writing manifest file '../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/SOURCES.txt'
+[10.879s] running build
+[10.880s] running build_py
+[10.884s] running install
+[10.888s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.899s]   warnings.warn(
+[10.919s] running install_lib
+[10.920s] running install_data
+[10.921s] running install_egg_info
+[10.934s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages/sub_interface_arduino_py-0.0.0-py3.10.egg-info' (and everything under it)
+[10.936s] Copying ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages/sub_interface_arduino_py-0.0.0-py3.10.egg-info
+[10.937s] running install_scripts
+[11.080s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log'
+[11.376s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_interface_arduino_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log --single-version-externally-managed

@@ -1,0 +1,39 @@
+[7.059s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_etat_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log --single-version-externally-managed
+[9.629s] running egg_info
+[9.630s] creating ../../build/sub_etat_py/sub_etat_py.egg-info
+[9.636s] writing ../../build/sub_etat_py/sub_etat_py.egg-info/PKG-INFO
+[9.637s] writing dependency_links to ../../build/sub_etat_py/sub_etat_py.egg-info/dependency_links.txt
+[9.638s] writing entry points to ../../build/sub_etat_py/sub_etat_py.egg-info/entry_points.txt
+[9.638s] writing requirements to ../../build/sub_etat_py/sub_etat_py.egg-info/requires.txt
+[9.639s] writing top-level names to ../../build/sub_etat_py/sub_etat_py.egg-info/top_level.txt
+[9.639s] writing manifest file '../../build/sub_etat_py/sub_etat_py.egg-info/SOURCES.txt'
+[9.660s] reading manifest file '../../build/sub_etat_py/sub_etat_py.egg-info/SOURCES.txt'
+[9.661s] writing manifest file '../../build/sub_etat_py/sub_etat_py.egg-info/SOURCES.txt'
+[9.661s] running build
+[9.662s] running build_py
+[9.663s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build
+[9.663s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib
+[9.668s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib/sub_etat_py
+[9.669s] copying sub_etat_py/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib/sub_etat_py
+[9.669s] copying sub_etat_py/etat_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib/sub_etat_py
+[9.670s] running install
+[9.688s] running install_lib
+[9.689s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.690s]   warnings.warn(
+[9.690s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py
+[9.691s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib/sub_etat_py/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py
+[9.698s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build/lib/sub_etat_py/etat_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py
+[9.698s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py/__init__.py to __init__.cpython-310.pyc
+[9.699s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py/etat_node.py to etat_node.cpython-310.pyc
+[9.700s] running install_data
+[9.701s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/ament_index
+[9.702s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/ament_index/resource_index
+[9.702s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/ament_index/resource_index/packages
+[9.703s] copying resource/sub_etat_py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/ament_index/resource_index/packages
+[9.703s] copying package.xml -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py
+[9.704s] running install_egg_info
+[9.705s] Copying ../../build/sub_etat_py/sub_etat_py.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py-0.0.0-py3.10.egg-info
+[9.705s] running install_scripts
+[9.813s] Installing etat_node script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/sub_etat_py
+[9.815s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log'
+[9.993s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_etat_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log --single-version-externally-managed

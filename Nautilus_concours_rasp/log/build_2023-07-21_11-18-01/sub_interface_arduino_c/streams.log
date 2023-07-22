@@ -1,0 +1,122 @@
+[0.106s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c
+[0.788s] -- The C compiler identification is GNU 11.3.0
+[1.226s] -- The CXX compiler identification is GNU 11.3.0
+[1.297s] -- Detecting C compiler ABI info
+[1.855s] -- Detecting C compiler ABI info - done
+[1.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.905s] -- Detecting C compile features
+[1.905s] -- Detecting C compile features - done
+[1.947s] -- Detecting CXX compiler ABI info
+[2.999s] -- Detecting CXX compiler ABI info - done
+[3.053s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.056s] -- Detecting CXX compile features
+[3.059s] -- Detecting CXX compile features - done
+[3.088s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.281s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[6.171s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[6.572s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.619s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.682s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.571s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.607s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.643s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.030s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.014s] -- Looking for pthread.h
+[10.735s] -- Looking for pthread.h - found
+[10.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.404s] -- Found Threads: TRUE  
+[12.697s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.037s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[13.612s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.290s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.083s] -- Configured cppcheck include dirs: /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/include
+[15.084s] -- Configured cppcheck exclude dirs and/or files: 
+[15.087s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.138s] -- Added test 'lint_cmake' to check CMake code style
+[15.149s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.162s] -- Added test 'uncrustify' to check C / C++ code style
+[15.163s] -- Configured uncrustify additional arguments: 
+[15.173s] -- Added test 'xmllint' to check XML markup files
+[15.231s] -- Configuring done
+[15.382s] -- Generating done
+[15.415s] -- Build files have been written to: /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c
+[15.520s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c
+[15.529s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c -- -j4 -l4
+[15.950s] [ 25%] [32mBuilding CXX object CMakeFiles/arduino_json.dir/src/ArduinoJson-v6.21.2.cpp.o[0m
+[19.303s] [ 50%] [32m[1mLinking CXX shared library libarduino_json.so[0m
+[19.539s] [ 50%] Built target arduino_json
+[19.754s] [ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial.cpp.o[0m
+[44.579s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial_com::deserialize_json_trash()[m[K’:
+[44.580s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:221:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kread_buf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.580s]   221 |         char [01;35m[Kread_buf[m[K [max_size_t];
+[44.581s]       |              [01;35m[K^~~~~~~~[m[K
+[44.583s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:222:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.584s]   222 |         char [01;35m[Kmsg[m[K [size_msg_t+1];
+[44.585s]       |              [01;35m[K^~~[m[K
+[44.631s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial_com::deserialize_json()[m[K’:
+[44.632s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:284:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kread_buf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.632s]   284 |         char [01;35m[Kread_buf[m[K [max_size];
+[44.633s]       |              [01;35m[K^~~~~~~~[m[K
+[44.634s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:285:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.635s]   285 |         char [01;35m[Kmsg[m[K [size_msg+1];
+[44.636s]       |              [01;35m[K^~~[m[K
+[44.688s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial_com::deserialize_json2()[m[K’:
+[44.689s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:393:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kread_buf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.690s]   393 |         char [01;35m[Kread_buf[m[K [max_size];
+[44.691s]       |              [01;35m[K^~~~~~~~[m[K
+[44.692s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:394:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.693s]   394 |         char [01;35m[Kmsg[m[K [size_msg+1];
+[44.693s]       |              [01;35m[K^~~[m[K
+[44.723s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial_com::deserialize_json3()[m[K’:
+[44.724s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:514:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kread_buf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.724s]   514 |         char [01;35m[Kread_buf[m[K [max_size];
+[44.725s]       |              [01;35m[K^~~~~~~~[m[K
+[44.726s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:515:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[44.727s]   515 |         char [01;35m[Kmsg[m[K [size_msg+1];
+[44.728s]       |              [01;35m[K^~~[m[K
+[44.729s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:534:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[44.730s]   534 |                 int [01;35m[Ka[m[K = 1;
+[44.730s]       |                     [01;35m[K^[m[K
+[44.751s] [01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c/src/serial.cpp:517:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kverif[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[44.752s]   517 |         bool [01;35m[Kverif[m[K = 0;
+[44.753s]       |              [01;35m[K^~~~~[m[K
+[108.920s] [100%] [32m[1mLinking CXX executable serial_node[0m
+[114.502s] [100%] Built target serial_node
+[114.651s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c -- -j4 -l4
+[115.222s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c
+[115.277s] -- Install configuration: ""
+[115.280s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/libarduino_json.so
+[115.284s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/sub_interface_arduino_c/serial_node
+[115.372s] -- Set runtime path of "/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/sub_interface_arduino_c/serial_node" to ""
+[115.373s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch
+[115.391s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/serial_test1_launch.py
+[115.396s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__
+[115.398s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__/serial_test1_launch.cpython-310.pyc
+[115.399s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__/sub_control_launch.cpython-310.pyc
+[115.402s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//config
+[115.403s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//config/params.yaml
+[115.404s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include
+[115.404s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include/serial_test1
+[115.405s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include/serial_test1/ArduinoJson-v6.21.2.hpp
+[115.407s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/package_run_dependencies/sub_interface_arduino_c
+[115.409s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/parent_prefix_path/sub_interface_arduino_c
+[115.413s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/ament_prefix_path.sh
+[115.415s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/ament_prefix_path.dsv
+[115.415s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/path.sh
+[115.427s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/path.dsv
+[115.433s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.bash
+[115.434s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.sh
+[115.435s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.zsh
+[115.436s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.dsv
+[115.467s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.dsv
+[115.498s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/packages/sub_interface_arduino_c
+[115.500s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[115.502s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/sub_interface_arduino_cConfig.cmake
+[115.503s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/sub_interface_arduino_cConfig-version.cmake
+[115.505s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.xml
+[115.509s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c

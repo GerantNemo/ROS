@@ -1,0 +1,33 @@
+[ 20%] Built target guidage_sonar2
+[ 40%] Built target guidage_base
+[ 60%] Built target guidage_simple
+[ 80%] Built target guidage_sonar1
+[35m[1mConsolidate compiler generated dependencies of target guidage_sonar3[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/guidage_sonar3.dir/src/guidage_sonar3.cpp.o[0m
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:[m[K In member function ‘[01m[Kvoid GuidageSonar::demande_scan(int)[m[K’:
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:153:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGuidageSonar::profondeur(int&)[m[K’
+  153 |       [01;31m[Kprofondeur(etat_suivant)[m[K;
+      |       [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GuidageSonar::profondeur(float, int)[m[K’
+   70 |     void [01;36m[Kprofondeur[m[K(float prof, int etat_suivant)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:[m[K In member function ‘[01m[Kvoid GuidageSonar::tourner(int)[m[K’:
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:181:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGuidageSonar::profondeur(int&)[m[K’
+  181 |         [01;31m[Kprofondeur(etat_suivant)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GuidageSonar::profondeur(float, int)[m[K’
+   70 |     void [01;36m[Kprofondeur[m[K(float prof, int etat_suivant)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:[m[K In member function ‘[01m[Kvoid GuidageSonar::aller(int, int)[m[K’:
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:216:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGuidageSonar::profondeur(int&)[m[K’
+  216 |         [01;31m[Kprofondeur(etat_suivant)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GuidageSonar::profondeur(float, int)[m[K’
+   70 |     void [01;36m[Kprofondeur[m[K(float prof, int etat_suivant)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c/src/guidage_sonar3.cpp:70:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/guidage_sonar3.dir/build.make:76: CMakeFiles/guidage_sonar3.dir/src/guidage_sonar3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/guidage_sonar3.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

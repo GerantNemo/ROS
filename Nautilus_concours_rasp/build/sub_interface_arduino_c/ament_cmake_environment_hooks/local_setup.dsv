@@ -1,0 +1,2 @@
+source;share/sub_interface_arduino_c/environment/ament_prefix_path.sh
+source;share/sub_interface_arduino_c/environment/path.sh

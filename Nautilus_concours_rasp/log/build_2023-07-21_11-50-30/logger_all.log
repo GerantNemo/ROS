@@ -1,0 +1,753 @@
+[1.452s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.452s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9469f520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94f680d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94f680d0>>)
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.620s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nemo/Documents/ROS/Nautilus_concours_rasp'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extension 'ignore'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extension 'ignore_ament_install'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extensions ['colcon_pkg']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extension 'colcon_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extensions ['colcon_meta']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extension 'colcon_meta'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extensions ['ros']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/conversion_msgs) by extension 'ros'
+[1.697s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conversion_msgs' with type 'ros.ament_cmake' and name 'conversion_msgs'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extension 'ignore_ament_install'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extensions ['colcon_pkg']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extension 'colcon_pkg'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extensions ['colcon_meta']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extension 'colcon_meta'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extensions ['ros']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_affichage) by extension 'ros'
+[1.704s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_affichage' with type 'ros.ament_python' and name 'sub_affichage'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extensions ['ignore', 'ignore_ament_install']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extension 'ignore'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extension 'ignore_ament_install'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extensions ['colcon_pkg']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extension 'colcon_meta'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extensions ['ros']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_control) by extension 'ros'
+[1.713s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_control' with type 'ros.ament_cmake' and name 'sub_control'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extensions ['ignore', 'ignore_ament_install']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extension 'ignore'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extension 'ignore_ament_install'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extensions ['colcon_pkg']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extension 'colcon_pkg'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extensions ['colcon_meta']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extension 'colcon_meta'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extensions ['ros']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_ekf) by extension 'ros'
+[1.718s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_ekf' with type 'ros.ament_python' and name 'sub_ekf'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extensions ['ignore', 'ignore_ament_install']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extension 'ignore'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extension 'ignore_ament_install'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extensions ['colcon_pkg']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extension 'colcon_pkg'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extensions ['colcon_meta']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extension 'colcon_meta'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extensions ['ros']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_etat_py) by extension 'ros'
+[1.724s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_etat_py' with type 'ros.ament_python' and name 'sub_etat_py'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extensions ['ignore', 'ignore_ament_install']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extension 'ignore'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extension 'ignore_ament_install'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extensions ['colcon_pkg']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extension 'colcon_pkg'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extensions ['colcon_meta']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extension 'colcon_meta'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extensions ['ros']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_guidage_c) by extension 'ros'
+[1.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_guidage_c' with type 'ros.ament_cmake' and name 'sub_guidage_c'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extensions ['ignore', 'ignore_ament_install']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extension 'ignore'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extension 'ignore_ament_install'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extensions ['colcon_pkg']
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extension 'colcon_pkg'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extensions ['colcon_meta']
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extension 'colcon_meta'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extensions ['ros']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_c) by extension 'ros'
+[1.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_interface_arduino_c' with type 'ros.ament_cmake' and name 'sub_interface_arduino_c'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extensions ['ignore', 'ignore_ament_install']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extension 'ignore'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extension 'ignore_ament_install'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extensions ['colcon_pkg']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extension 'colcon_pkg'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extensions ['colcon_meta']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extension 'colcon_meta'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extensions ['ros']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_interface_arduino_py) by extension 'ros'
+[1.743s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_interface_arduino_py' with type 'ros.ament_python' and name 'sub_interface_arduino_py'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extensions ['ignore', 'ignore_ament_install']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extension 'ignore'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extension 'ignore_ament_install'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extensions ['colcon_pkg']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extensions ['colcon_meta']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extension 'colcon_meta'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extensions ['ros']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_map) by extension 'ros'
+[1.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_map' with type 'ros.ament_python' and name 'sub_map'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extensions ['ignore', 'ignore_ament_install']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extension 'ignore'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extension 'ignore_ament_install'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extensions ['colcon_pkg']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extension 'colcon_pkg'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extensions ['colcon_meta']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extension 'colcon_meta'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extensions ['ros']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_sonar) by extension 'ros'
+[1.754s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_sonar' with type 'ros.ament_python' and name 'sub_sonar'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extension 'ignore_ament_install'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extensions ['colcon_pkg']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extension 'colcon_pkg'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extensions ['colcon_meta']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extension 'colcon_meta'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extensions ['ros']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop) by extension 'ros'
+[1.760s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_teleop' with type 'ros.ament_python' and name 'sub_teleop'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extensions ['ignore', 'ignore_ament_install']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extension 'ignore'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extension 'ignore_ament_install'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extensions ['colcon_pkg']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extension 'colcon_pkg'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extensions ['colcon_meta']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extension 'colcon_meta'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extensions ['ros']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_teleop_play) by extension 'ros'
+[1.767s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_teleop_play' with type 'ros.ament_cmake' and name 'sub_teleop_play'
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.886s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/nemo/Documents/ROS/Nautilus_concours_rasp/install
+[1.897s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[1.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.175s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_args' from command line to 'None'
+[2.175s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_target' from command line to 'None'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'conversion_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.176s] DEBUG:colcon.colcon_core.verb:Building package 'conversion_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/conversion_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.180s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_args' from command line to 'None'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_target' from command line to 'None'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_clean_cache' from command line to 'False'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_clean_first' from command line to 'False'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'cmake_force_configure' from command line to 'False'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'ament_cmake_args' from command line to 'None'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'catkin_cmake_args' from command line to 'None'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'sub_affichage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.182s] DEBUG:colcon.colcon_core.verb:Building package 'sub_affichage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage', 'symlink_install': False, 'test_result_base': None}
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_args' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_target' from command line to 'None'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.186s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.187s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.187s] Level 5:colcon.colcon_core.verb:set package 'sub_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.187s] DEBUG:colcon.colcon_core.verb:Building package 'sub_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control', 'symlink_install': False, 'test_result_base': None}
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_args' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_target' from command line to 'None'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'sub_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.192s] DEBUG:colcon.colcon_core.verb:Building package 'sub_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf', 'symlink_install': False, 'test_result_base': None}
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_args' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_target' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'sub_etat_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.197s] DEBUG:colcon.colcon_core.verb:Building package 'sub_etat_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py', 'symlink_install': False, 'test_result_base': None}
+[2.201s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_args' from command line to 'None'
+[2.201s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_target' from command line to 'None'
+[2.201s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_clean_cache' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_clean_first' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'cmake_force_configure' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'ament_cmake_args' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'catkin_cmake_args' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'sub_guidage_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.202s] DEBUG:colcon.colcon_core.verb:Building package 'sub_guidage_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c', 'symlink_install': False, 'test_result_base': None}
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_target' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_clean_cache' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_clean_first' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'cmake_force_configure' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'ament_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'catkin_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.208s] DEBUG:colcon.colcon_core.verb:Building package 'sub_interface_arduino_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c', 'symlink_install': False, 'test_result_base': None}
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_args' from command line to 'None'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_target' from command line to 'None'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.213s] Level 5:colcon.colcon_core.verb:set package 'sub_interface_arduino_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.213s] DEBUG:colcon.colcon_core.verb:Building package 'sub_interface_arduino_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py', 'symlink_install': False, 'test_result_base': None}
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_args' from command line to 'None'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_target' from command line to 'None'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_clean_cache' from command line to 'False'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_clean_first' from command line to 'False'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'cmake_force_configure' from command line to 'False'
+[2.217s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'ament_cmake_args' from command line to 'None'
+[2.218s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'catkin_cmake_args' from command line to 'None'
+[2.218s] Level 5:colcon.colcon_core.verb:set package 'sub_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.218s] DEBUG:colcon.colcon_core.verb:Building package 'sub_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map', 'symlink_install': False, 'test_result_base': None}
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_args' from command line to 'None'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_target' from command line to 'None'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_clean_cache' from command line to 'False'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_clean_first' from command line to 'False'
+[2.222s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'cmake_force_configure' from command line to 'False'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'ament_cmake_args' from command line to 'None'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'catkin_cmake_args' from command line to 'None'
+[2.223s] Level 5:colcon.colcon_core.verb:set package 'sub_sonar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.223s] DEBUG:colcon.colcon_core.verb:Building package 'sub_sonar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar', 'symlink_install': False, 'test_result_base': None}
+[2.227s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_target' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[2.228s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.228s] DEBUG:colcon.colcon_core.verb:Building package 'sub_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop', 'symlink_install': False, 'test_result_base': None}
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_target' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_clean_cache' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_clean_first' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'cmake_force_configure' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'ament_cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'catkin_cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sub_teleop_play' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.234s] DEBUG:colcon.colcon_core.verb:Building package 'sub_teleop_play' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play', 'merge_install': False, 'path': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play', 'symlink_install': False, 'test_result_base': None}
+[2.236s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/conversion_msgs' with build type 'ament_cmake'
+[2.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/conversion_msgs'
+[2.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage' with build type 'ament_python'
+[2.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_affichage', 'ament_prefix_path')
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/ament_prefix_path.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/ament_prefix_path.dsv'
+[2.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/ament_prefix_path.sh'
+[2.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control' with build type 'ament_cmake'
+[2.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control'
+[2.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf' with build type 'ament_python'
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_ekf', 'ament_prefix_path')
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/ament_prefix_path.ps1'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/ament_prefix_path.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/ament_prefix_path.sh'
+[2.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs -- -j4 -l4
+[4.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage'
+[4.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control -- -j4 -l4
+[6.362s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf'
+[6.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs -- -j4 -l4
+[6.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control -- -j4 -l4
+[6.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs
+[6.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conversion_msgs)
+[7.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs' for CMake module files
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs' for CMake config files
+[7.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('conversion_msgs', 'cmake_prefix_path')
+[7.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.ps1'
+[7.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.dsv'
+[7.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.sh'
+[7.121s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/bin'
+[7.122s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/lib/pkgconfig/conversion_msgs.pc'
+[7.123s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/lib/python3.10/site-packages'
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/bin'
+[7.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.ps1'
+[7.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.dsv'
+[7.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.sh'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.bash'
+[7.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.zsh'
+[7.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/colcon-core/packages/conversion_msgs)
+[7.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control
+[7.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_control)
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control' for CMake module files
+[7.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control
+[7.514s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control' for CMake config files
+[7.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_control', 'cmake_prefix_path')
+[7.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.ps1'
+[7.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.dsv'
+[7.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.sh'
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib'
+[7.581s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/bin'
+[7.582s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/pkgconfig/sub_control.pc'
+[7.585s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/python3.10/site-packages'
+[7.605s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/bin'
+[7.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.ps1'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.dsv'
+[7.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.sh'
+[7.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.bash'
+[7.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.zsh'
+[7.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/colcon-core/packages/sub_control)
+[7.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conversion_msgs)
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs' for CMake module files
+[7.766s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs' for CMake config files
+[7.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('conversion_msgs', 'cmake_prefix_path')
+[7.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.ps1'
+[7.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.dsv'
+[7.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/hook/cmake_prefix_path.sh'
+[7.830s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/bin'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/lib/pkgconfig/conversion_msgs.pc'
+[7.870s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/lib/python3.10/site-packages'
+[7.875s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/bin'
+[7.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.ps1'
+[7.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.dsv'
+[7.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.sh'
+[7.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.bash'
+[7.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.zsh'
+[7.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/colcon-core/packages/conversion_msgs)
+[7.975s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py' with build type 'ament_python'
+[7.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_etat_py', 'ament_prefix_path')
+[7.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/ament_prefix_path.ps1'
+[8.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/ament_prefix_path.dsv'
+[8.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/ament_prefix_path.sh'
+[8.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_control)
+[8.140s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control' for CMake module files
+[8.164s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control' for CMake config files
+[8.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_control', 'cmake_prefix_path')
+[8.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.ps1'
+[8.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.dsv'
+[8.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/hook/cmake_prefix_path.sh'
+[8.293s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib'
+[8.293s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/bin'
+[8.294s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/pkgconfig/sub_control.pc'
+[8.295s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/python3.10/site-packages'
+[8.296s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/bin'
+[8.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.ps1'
+[8.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.dsv'
+[8.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.sh'
+[8.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.bash'
+[8.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.zsh'
+[8.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/colcon-core/packages/sub_control)
+[8.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c' with build type 'ament_cmake'
+[8.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_guidage_c'
+[8.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.844s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py'
+[10.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c -- -j4 -l4
+[10.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_ekf build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log --single-version-externally-managed
+[10.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed
+[15.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed
+[15.568s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage' for CMake module files
+[15.572s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage' for CMake config files
+[15.581s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib'
+[15.582s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/bin'
+[15.584s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/pkgconfig/sub_affichage.pc'
+[15.585s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages'
+[15.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_affichage', 'pythonpath')
+[15.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/pythonpath.ps1'
+[15.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/pythonpath.dsv'
+[15.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/hook/pythonpath.sh'
+[15.607s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/bin'
+[15.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_affichage)
+[15.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/package.ps1'
+[15.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/package.dsv'
+[15.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/package.sh'
+[15.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/package.bash'
+[15.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage/package.zsh'
+[15.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/colcon-core/packages/sub_affichage)
+[15.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c' with build type 'ament_cmake'
+[15.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_c'
+[15.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_etat_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log --single-version-externally-managed
+[15.836s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf' for CMake module files
+[15.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_ekf build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log --single-version-externally-managed
+[15.840s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf' for CMake config files
+[15.845s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib'
+[15.846s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/bin'
+[15.846s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/pkgconfig/sub_ekf.pc'
+[15.848s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages'
+[15.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_ekf', 'pythonpath')
+[15.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/pythonpath.ps1'
+[15.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/pythonpath.dsv'
+[15.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/hook/pythonpath.sh'
+[15.872s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/bin'
+[15.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_ekf)
+[15.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/package.ps1'
+[15.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/package.dsv'
+[15.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/package.sh'
+[15.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/package.bash'
+[15.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf/package.zsh'
+[15.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/colcon-core/packages/sub_ekf)
+[15.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c -- -j4 -l4
+[15.948s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py' with build type 'ament_python'
+[15.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_py', 'ament_prefix_path')
+[15.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/ament_prefix_path.ps1'
+[15.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/ament_prefix_path.dsv'
+[15.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/ament_prefix_path.sh'
+[15.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.110s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py'
+[19.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c -- -j4 -l4
+[20.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c
+[20.378s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py' for CMake module files
+[20.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_etat_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log --single-version-externally-managed
+[20.384s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py' for CMake config files
+[20.388s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib'
+[20.389s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/bin'
+[20.389s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/pkgconfig/sub_etat_py.pc'
+[20.390s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages'
+[20.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_etat_py', 'pythonpath')
+[20.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/pythonpath.ps1'
+[20.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/pythonpath.dsv'
+[20.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/hook/pythonpath.sh'
+[20.477s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/bin'
+[20.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_etat_py)
+[20.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/package.ps1'
+[20.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/package.dsv'
+[20.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/package.sh'
+[20.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/package.bash'
+[20.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/sub_etat_py/package.zsh'
+[20.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/share/colcon-core/packages/sub_etat_py)
+[20.556s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map' with build type 'ament_python'
+[20.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_map', 'ament_prefix_path')
+[20.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/ament_prefix_path.ps1'
+[20.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/ament_prefix_path.dsv'
+[20.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/ament_prefix_path.sh'
+[20.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_interface_arduino_c)
+[20.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c
+[20.777s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c' for CMake module files
+[20.781s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c' for CMake config files
+[20.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_c', 'cmake_prefix_path')
+[20.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.ps1'
+[20.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.dsv'
+[20.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.sh'
+[20.825s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib'
+[20.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_c', 'ld_library_path_lib')
+[20.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.ps1'
+[20.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.dsv'
+[20.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.sh'
+[20.873s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/bin'
+[20.874s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/pkgconfig/sub_interface_arduino_c.pc'
+[20.876s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/python3.10/site-packages'
+[20.877s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/bin'
+[20.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.ps1'
+[20.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.dsv'
+[20.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.sh'
+[20.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.bash'
+[20.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.zsh'
+[20.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/colcon-core/packages/sub_interface_arduino_c)
+[23.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map'
+[23.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_interface_arduino_c)
+[23.955s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c' for CMake module files
+[23.960s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c' for CMake config files
+[23.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_c', 'cmake_prefix_path')
+[23.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.ps1'
+[23.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.dsv'
+[23.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/cmake_prefix_path.sh'
+[24.013s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib'
+[24.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_c', 'ld_library_path_lib')
+[24.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.ps1'
+[24.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.dsv'
+[24.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/hook/ld_library_path_lib.sh'
+[24.047s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/bin'
+[24.047s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/pkgconfig/sub_interface_arduino_c.pc'
+[24.049s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/python3.10/site-packages'
+[24.050s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/bin'
+[24.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.ps1'
+[24.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.dsv'
+[24.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.sh'
+[24.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.bash'
+[24.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.zsh'
+[24.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/colcon-core/packages/sub_interface_arduino_c)
+[24.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_interface_arduino_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log --single-version-externally-managed
+[24.145s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar' with build type 'ament_python'
+[24.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_sonar', 'ament_prefix_path')
+[24.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/ament_prefix_path.ps1'
+[24.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/ament_prefix_path.dsv'
+[24.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/ament_prefix_path.sh'
+[24.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.045s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar'
+[28.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_map build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log --single-version-externally-managed
+[28.263s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py' for CMake module files
+[28.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_interface_arduino_py build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log --single-version-externally-managed
+[28.273s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py' for CMake config files
+[28.277s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib'
+[28.278s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/bin'
+[28.279s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/pkgconfig/sub_interface_arduino_py.pc'
+[28.280s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages'
+[28.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_interface_arduino_py', 'pythonpath')
+[28.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/pythonpath.ps1'
+[28.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/pythonpath.dsv'
+[28.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/hook/pythonpath.sh'
+[28.304s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/bin'
+[28.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_interface_arduino_py)
+[28.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/package.ps1'
+[28.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/package.dsv'
+[28.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/package.sh'
+[28.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/package.bash'
+[28.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/sub_interface_arduino_py/package.zsh'
+[28.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/share/colcon-core/packages/sub_interface_arduino_py)
+[28.349s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop' with build type 'ament_python'
+[28.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_teleop', 'ament_prefix_path')
+[28.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/ament_prefix_path.ps1'
+[28.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/ament_prefix_path.dsv'
+[28.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/ament_prefix_path.sh'
+[28.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.694s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop'
+[31.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.830s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map' for CMake module files
+[31.834s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map' for CMake config files
+[31.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_map build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log --single-version-externally-managed
+[31.842s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib'
+[31.843s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/bin'
+[31.844s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/pkgconfig/sub_map.pc'
+[31.845s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages'
+[31.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_map', 'pythonpath')
+[31.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/pythonpath.ps1'
+[31.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/pythonpath.dsv'
+[31.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/hook/pythonpath.sh'
+[31.865s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/bin'
+[31.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_map)
+[31.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/package.ps1'
+[31.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/package.dsv'
+[31.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/package.sh'
+[31.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/package.bash'
+[31.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/sub_map/package.zsh'
+[31.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/share/colcon-core/packages/sub_map)
+[31.923s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play' with build type 'ament_cmake'
+[31.934s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop_play'
+[31.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed
+[32.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play -- -j4 -l4
+[33.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play -- -j4 -l4
+[33.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play
+[33.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_teleop_play)
+[33.827s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play' for CMake module files
+[33.850s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play' for CMake config files
+[33.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play
+[33.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_teleop_play', 'cmake_prefix_path')
+[33.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.ps1'
+[33.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.dsv'
+[33.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.sh'
+[33.920s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib'
+[33.921s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/bin'
+[33.924s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/pkgconfig/sub_teleop_play.pc'
+[33.927s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/python3.10/site-packages'
+[33.928s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/bin'
+[33.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.ps1'
+[33.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.dsv'
+[33.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.sh'
+[34.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.bash'
+[34.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.zsh'
+[34.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/colcon-core/packages/sub_teleop_play)
+[34.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_teleop_play)
+[34.623s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play' for CMake module files
+[34.636s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play' for CMake config files
+[34.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_teleop_play', 'cmake_prefix_path')
+[34.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.ps1'
+[34.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.dsv'
+[34.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/hook/cmake_prefix_path.sh'
+[34.758s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib'
+[34.759s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/bin'
+[34.760s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/pkgconfig/sub_teleop_play.pc'
+[34.761s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/python3.10/site-packages'
+[34.762s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/bin'
+[34.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.ps1'
+[34.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.dsv'
+[34.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.sh'
+[34.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.bash'
+[34.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.zsh'
+[34.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/colcon-core/packages/sub_teleop_play)
+[35.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_teleop build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log --single-version-externally-managed
+[36.175s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar' for CMake module files
+[36.178s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar' for CMake config files
+[36.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed
+[36.204s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib'
+[36.207s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/bin'
+[36.209s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/pkgconfig/sub_sonar.pc'
+[36.210s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages'
+[36.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_sonar', 'pythonpath')
+[36.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/pythonpath.ps1'
+[36.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/pythonpath.dsv'
+[36.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/hook/pythonpath.sh'
+[36.273s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/bin'
+[36.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_sonar)
+[36.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/package.ps1'
+[36.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/package.dsv'
+[36.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/package.sh'
+[36.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/package.bash'
+[36.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/sub_sonar/package.zsh'
+[36.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/share/colcon-core/packages/sub_sonar)
+[38.924s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop' for CMake module files
+[38.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_teleop build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log --single-version-externally-managed
+[38.930s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop' for CMake config files
+[38.937s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib'
+[38.938s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/bin'
+[38.939s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/pkgconfig/sub_teleop.pc'
+[38.940s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages'
+[38.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_teleop', 'pythonpath')
+[38.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/pythonpath.ps1'
+[38.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/pythonpath.dsv'
+[38.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/hook/pythonpath.sh'
+[38.961s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/bin'
+[38.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_teleop)
+[38.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/package.ps1'
+[38.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/package.dsv'
+[38.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/package.sh'
+[38.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/package.bash'
+[38.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/sub_teleop/package.zsh'
+[38.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/share/colcon-core/packages/sub_teleop)
+[97.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c -- -j4 -l4
+[98.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c
+[98.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_guidage_c)
+[98.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c
+[98.317s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c' for CMake module files
+[98.328s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c' for CMake config files
+[98.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_guidage_c', 'cmake_prefix_path')
+[98.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.ps1'
+[98.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.dsv'
+[98.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.sh'
+[98.359s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib'
+[98.359s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/bin'
+[98.360s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/pkgconfig/sub_guidage_c.pc'
+[98.361s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/python3.10/site-packages'
+[98.362s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/bin'
+[98.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.ps1'
+[98.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.dsv'
+[98.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.sh'
+[98.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.bash'
+[98.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.zsh'
+[98.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/colcon-core/packages/sub_guidage_c)
+[98.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_guidage_c)
+[98.763s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c' for CMake module files
+[98.769s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c' for CMake config files
+[98.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_guidage_c', 'cmake_prefix_path')
+[98.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.ps1'
+[98.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.dsv'
+[98.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/hook/cmake_prefix_path.sh'
+[98.793s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib'
+[98.796s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/bin'
+[98.797s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/pkgconfig/sub_guidage_c.pc'
+[98.799s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/python3.10/site-packages'
+[98.802s] Level 1:colcon.colcon_core.environment:checking '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/bin'
+[98.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.ps1'
+[98.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.dsv'
+[98.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.sh'
+[98.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.bash'
+[98.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.zsh'
+[98.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/colcon-core/packages/sub_guidage_c)
+[98.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[98.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[98.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[98.837s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[98.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[98.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[98.890s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[99.028s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[99.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/local_setup.ps1'
+[99.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/_local_setup_util_ps1.py'
+[99.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/setup.ps1'
+[99.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/local_setup.sh'
+[99.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/_local_setup_util_sh.py'
+[99.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/setup.sh'
+[99.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/local_setup.bash'
+[99.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/setup.bash'
+[99.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/local_setup.zsh'
+[99.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/setup.zsh'

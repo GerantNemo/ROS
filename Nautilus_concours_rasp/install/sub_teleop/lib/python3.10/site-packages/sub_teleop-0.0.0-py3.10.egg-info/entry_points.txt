@@ -1,0 +1,6 @@
+[console_scripts]
+teleop_twist_keyboard_vf = sub_teleop.teleop_twist_keyboard_vf:main
+teleop_twist_keyboard_vf2 = sub_teleop.teleop_twist_keyboard_vf2:main
+teleop_twist_keyboard_vf3 = sub_teleop.teleop_twist_keyboard_vf3:main
+teleop_twist_keyboard_vf_gazebo = sub_teleop.teleop_twist_keyboard_vf_gazebo:main
+

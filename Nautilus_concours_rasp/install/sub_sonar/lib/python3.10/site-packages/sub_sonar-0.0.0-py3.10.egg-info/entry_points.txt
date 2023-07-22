@@ -1,0 +1,3 @@
+[console_scripts]
+sonar_scan = sub_sonar.sonar_node:main
+

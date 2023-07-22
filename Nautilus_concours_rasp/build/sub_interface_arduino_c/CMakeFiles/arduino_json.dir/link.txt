@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libarduino_json.so -o libarduino_json.so CMakeFiles/arduino_json.dir/src/ArduinoJson-v6.21.2.cpp.o 

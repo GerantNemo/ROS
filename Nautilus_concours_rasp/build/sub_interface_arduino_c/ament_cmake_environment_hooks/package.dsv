@@ -1,0 +1,4 @@
+source;share/sub_interface_arduino_c/local_setup.bash
+source;share/sub_interface_arduino_c/local_setup.dsv
+source;share/sub_interface_arduino_c/local_setup.sh
+source;share/sub_interface_arduino_c/local_setup.zsh

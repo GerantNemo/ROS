@@ -1,0 +1,22 @@
+[6.700s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_map build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log --single-version-externally-managed
+[9.259s] running egg_info
+[9.274s] writing ../../build/sub_map/sub_map.egg-info/PKG-INFO
+[9.274s] writing dependency_links to ../../build/sub_map/sub_map.egg-info/dependency_links.txt
+[9.275s] writing entry points to ../../build/sub_map/sub_map.egg-info/entry_points.txt
+[9.276s] writing requirements to ../../build/sub_map/sub_map.egg-info/requires.txt
+[9.277s] writing top-level names to ../../build/sub_map/sub_map.egg-info/top_level.txt
+[9.290s] reading manifest file '../../build/sub_map/sub_map.egg-info/SOURCES.txt'
+[9.314s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.315s]   warnings.warn(
+[9.316s] writing manifest file '../../build/sub_map/sub_map.egg-info/SOURCES.txt'
+[9.345s] running build
+[9.346s] running build_py
+[9.348s] running install
+[9.348s] running install_lib
+[9.349s] running install_data
+[9.350s] running install_egg_info
+[9.350s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages/sub_map-0.0.0-py3.10.egg-info' (and everything under it)
+[9.351s] Copying ../../build/sub_map/sub_map.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages/sub_map-0.0.0-py3.10.egg-info
+[9.351s] running install_scripts
+[9.523s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log'
+[9.762s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_map build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log --single-version-externally-managed

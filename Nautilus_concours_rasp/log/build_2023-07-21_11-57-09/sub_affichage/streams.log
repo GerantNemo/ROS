@@ -1,0 +1,23 @@
+[8.664s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed
+[12.934s] running egg_info
+[12.954s] writing ../../build/sub_affichage/sub_affichage.egg-info/PKG-INFO
+[12.970s] writing dependency_links to ../../build/sub_affichage/sub_affichage.egg-info/dependency_links.txt
+[12.988s] writing entry points to ../../build/sub_affichage/sub_affichage.egg-info/entry_points.txt
+[13.003s] writing requirements to ../../build/sub_affichage/sub_affichage.egg-info/requires.txt
+[13.004s] writing top-level names to ../../build/sub_affichage/sub_affichage.egg-info/top_level.txt
+[13.037s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.050s]   warnings.warn(
+[13.051s] reading manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'
+[13.052s] writing manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'
+[13.052s] running build
+[13.053s] running build_py
+[13.054s] running install
+[13.058s] running install_lib
+[13.061s] running install_data
+[13.062s] running install_egg_info
+[13.067s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage-0.0.0-py3.10.egg-info' (and everything under it)
+[13.068s] Copying ../../build/sub_affichage/sub_affichage.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage-0.0.0-py3.10.egg-info
+[13.076s] running install_scripts
+[13.423s] Installing sub_affichage script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/sub_affichage
+[13.457s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log'
+[14.068s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/sub_ekf/sub_ekf.egg-info
+writing ../../build/sub_ekf/sub_ekf.egg-info/PKG-INFO
+writing dependency_links to ../../build/sub_ekf/sub_ekf.egg-info/dependency_links.txt
+writing entry points to ../../build/sub_ekf/sub_ekf.egg-info/entry_points.txt
+writing requirements to ../../build/sub_ekf/sub_ekf.egg-info/requires.txt
+writing top-level names to ../../build/sub_ekf/sub_ekf.egg-info/top_level.txt
+writing manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+reading manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'
+writing manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib/sub_ekf
+copying sub_ekf/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib/sub_ekf
+copying sub_ekf/main_ekf_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib/sub_ekf
+running install
+running install_lib
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf
+copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib/sub_ekf/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf
+copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build/lib/sub_ekf/main_ekf_node.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf
+byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf/main_ekf_node.py to main_ekf_node.cpython-310.pyc
+running install_data
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/ament_index
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/ament_index/resource_index
+creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/ament_index/resource_index/packages
+copying resource/sub_ekf -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/ament_index/resource_index/packages
+copying package.xml -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/share/sub_ekf
+running install_egg_info
+Copying ../../build/sub_ekf/sub_ekf.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log'

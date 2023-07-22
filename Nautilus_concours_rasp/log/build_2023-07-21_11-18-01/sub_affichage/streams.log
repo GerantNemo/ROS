@@ -1,0 +1,40 @@
+[10.152s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed
+[13.433s] running egg_info
+[13.433s] creating ../../build/sub_affichage/sub_affichage.egg-info
+[13.434s] writing ../../build/sub_affichage/sub_affichage.egg-info/PKG-INFO
+[13.435s] writing dependency_links to ../../build/sub_affichage/sub_affichage.egg-info/dependency_links.txt
+[13.436s] writing entry points to ../../build/sub_affichage/sub_affichage.egg-info/entry_points.txt
+[13.440s] writing requirements to ../../build/sub_affichage/sub_affichage.egg-info/requires.txt
+[13.440s] writing top-level names to ../../build/sub_affichage/sub_affichage.egg-info/top_level.txt
+[13.441s] writing manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'
+[13.454s] reading manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'
+[13.463s] writing manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'
+[13.480s] running build
+[13.481s] running build_py
+[13.481s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build
+[13.482s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib
+[13.483s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib/sub_affichage
+[13.483s] copying sub_affichage/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib/sub_affichage
+[13.495s] copying sub_affichage/sub_affichage.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib/sub_affichage
+[13.497s] running install
+[13.505s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.506s]   warnings.warn(
+[13.524s] running install_lib
+[13.575s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage
+[13.602s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib/sub_affichage/__init__.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage
+[13.603s] copying /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build/lib/sub_affichage/sub_affichage.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage
+[13.604s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage/__init__.py to __init__.cpython-310.pyc
+[13.657s] byte-compiling /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage/sub_affichage.py to sub_affichage.cpython-310.pyc
+[13.759s] running install_data
+[13.760s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/ament_index
+[13.761s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/ament_index/resource_index
+[13.762s] creating /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/ament_index/resource_index/packages
+[13.762s] copying resource/sub_affichage -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/ament_index/resource_index/packages
+[13.946s] copying package.xml -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage
+[13.956s] copying launch/sub_affichage_launch.py -> /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/share/sub_affichage
+[13.957s] running install_egg_info
+[13.959s] Copying ../../build/sub_affichage/sub_affichage.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage-0.0.0-py3.10.egg-info
+[14.004s] running install_scripts
+[14.005s] Installing sub_affichage script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/sub_affichage
+[14.007s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log'
+[15.991s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_affichage build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log --single-version-externally-managed

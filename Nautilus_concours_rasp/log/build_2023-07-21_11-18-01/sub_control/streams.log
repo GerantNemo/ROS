@@ -1,0 +1,88 @@
+[1.630s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control
+[1.987s] -- The C compiler identification is GNU 11.3.0
+[2.547s] -- The CXX compiler identification is GNU 11.3.0
+[2.634s] -- Detecting C compiler ABI info
+[3.423s] -- Detecting C compiler ABI info - done
+[3.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.536s] -- Detecting C compile features
+[3.561s] -- Detecting C compile features - done
+[3.625s] -- Detecting CXX compiler ABI info
+[4.419s] -- Detecting CXX compiler ABI info - done
+[4.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.474s] -- Detecting CXX compile features
+[4.475s] -- Detecting CXX compile features - done
+[4.624s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.958s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[9.747s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[11.229s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.376s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.834s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.517s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.577s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.653s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.967s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.898s] -- Looking for pthread.h
+[17.712s] -- Looking for pthread.h - found
+[17.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.307s] -- Found Threads: TRUE  
+[20.920s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[21.600s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[22.156s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[22.706s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[22.957s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[26.084s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[26.380s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[26.439s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[26.440s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[26.580s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[27.581s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[27.582s] -- Configured cppcheck include dirs: /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control/include
+[27.583s] -- Configured cppcheck exclude dirs and/or files: 
+[27.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[27.589s] -- Added test 'lint_cmake' to check CMake code style
+[27.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[27.607s] -- Added test 'uncrustify' to check C / C++ code style
+[27.608s] -- Configured uncrustify additional arguments: 
+[27.614s] -- Added test 'xmllint' to check XML markup files
+[27.625s] -- Configuring done
+[27.855s] -- Generating done
+[27.856s] -- Build files have been written to: /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control
+[27.951s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_control -DCMAKE_INSTALL_PREFIX=/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control
+[27.965s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control -- -j4 -l4
+[28.412s] [ 25%] [32mBuilding CXX object CMakeFiles/position_controller_node.dir/src/position_controller_node.cpp.o[0m
+[141.872s] [ 50%] [32m[1mLinking CXX executable position_controller_node[0m
+[148.668s] [ 50%] Built target position_controller_node
+[148.789s] [ 75%] [32mBuilding CXX object CMakeFiles/velocity_controller_node.dir/src/velocity_controller_node.cpp.o[0m
+[223.824s] [100%] [32m[1mLinking CXX executable velocity_controller_node[0m
+[228.169s] [100%] Built target velocity_controller_node
+[228.238s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control -- -j4 -l4
+[228.464s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control
+[228.521s] -- Install configuration: ""
+[228.523s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/position_controller_node
+[228.581s] -- Set runtime path of "/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/position_controller_node" to ""
+[228.582s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/velocity_controller_node
+[228.672s] -- Set runtime path of "/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/velocity_controller_node" to ""
+[228.673s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//launch
+[228.676s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//launch/sub_control_launch.py
+[228.678s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//config
+[228.680s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//config/params.yaml
+[228.683s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/package_run_dependencies/sub_control
+[228.687s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/parent_prefix_path/sub_control
+[228.691s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/ament_prefix_path.sh
+[228.695s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/ament_prefix_path.dsv
+[228.697s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/path.sh
+[228.700s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/path.dsv
+[228.703s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.bash
+[228.705s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.sh
+[228.708s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.zsh
+[228.712s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.dsv
+[228.715s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.dsv
+[228.719s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/packages/sub_control
+[228.722s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/cmake/sub_controlConfig.cmake
+[228.725s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/cmake/sub_controlConfig-version.cmake
+[228.727s] -- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.xml
+[228.746s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control

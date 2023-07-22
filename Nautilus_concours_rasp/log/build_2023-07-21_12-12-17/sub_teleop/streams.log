@@ -1,0 +1,26 @@
+[7.982s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_teleop build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log --single-version-externally-managed
+[10.296s] running egg_info
+[10.302s] writing ../../build/sub_teleop/sub_teleop.egg-info/PKG-INFO
+[10.306s] writing dependency_links to ../../build/sub_teleop/sub_teleop.egg-info/dependency_links.txt
+[10.310s] writing entry points to ../../build/sub_teleop/sub_teleop.egg-info/entry_points.txt
+[10.313s] writing requirements to ../../build/sub_teleop/sub_teleop.egg-info/requires.txt
+[10.338s] writing top-level names to ../../build/sub_teleop/sub_teleop.egg-info/top_level.txt
+[10.364s] reading manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'
+[10.368s] writing manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'
+[10.369s] running build
+[10.370s] running build_py
+[10.388s] running install
+[10.403s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.405s]   warnings.warn(
+[10.405s] running install_lib
+[10.406s] running install_data
+[10.420s] running install_egg_info
+[10.421s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[10.425s] Copying ../../build/sub_teleop/sub_teleop.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info
+[10.438s] running install_scripts
+[10.669s] Installing teleop_twist_keyboard_vf script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+[10.671s] Installing teleop_twist_keyboard_vf2 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+[10.673s] Installing teleop_twist_keyboard_vf3 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+[10.674s] Installing teleop_twist_keyboard_vf_gazebo script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+[10.680s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log'
+[10.908s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_teleop build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log --single-version-externally-managed

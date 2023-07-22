@@ -1,0 +1,1352 @@
+[0.000000] (-) TimerEvent: {}
+[0.001736] (conversion_msgs) JobQueued: {'identifier': 'conversion_msgs', 'dependencies': OrderedDict()}
+[0.002304] (sub_affichage) JobQueued: {'identifier': 'sub_affichage', 'dependencies': OrderedDict()}
+[0.004513] (sub_control) JobQueued: {'identifier': 'sub_control', 'dependencies': OrderedDict()}
+[0.004822] (sub_ekf) JobQueued: {'identifier': 'sub_ekf', 'dependencies': OrderedDict()}
+[0.004985] (sub_etat_py) JobQueued: {'identifier': 'sub_etat_py', 'dependencies': OrderedDict()}
+[0.005077] (sub_guidage_c) JobQueued: {'identifier': 'sub_guidage_c', 'dependencies': OrderedDict()}
+[0.005191] (sub_interface_arduino_c) JobQueued: {'identifier': 'sub_interface_arduino_c', 'dependencies': OrderedDict()}
+[0.005309] (sub_interface_arduino_py) JobQueued: {'identifier': 'sub_interface_arduino_py', 'dependencies': OrderedDict()}
+[0.005429] (sub_map) JobQueued: {'identifier': 'sub_map', 'dependencies': OrderedDict()}
+[0.006856] (sub_sonar) JobQueued: {'identifier': 'sub_sonar', 'dependencies': OrderedDict()}
+[0.007046] (sub_teleop) JobQueued: {'identifier': 'sub_teleop', 'dependencies': OrderedDict()}
+[0.007302] (sub_teleop_play) JobQueued: {'identifier': 'sub_teleop_play', 'dependencies': OrderedDict()}
+[0.007459] (conversion_msgs) JobStarted: {'identifier': 'conversion_msgs'}
+[0.075990] (sub_affichage) JobStarted: {'identifier': 'sub_affichage'}
+[0.101999] (-) TimerEvent: {}
+[0.161237] (sub_control) JobStarted: {'identifier': 'sub_control'}
+[0.202089] (-) TimerEvent: {}
+[0.210820] (sub_ekf) JobStarted: {'identifier': 'sub_ekf'}
+[0.297201] (conversion_msgs) JobProgress: {'identifier': 'conversion_msgs', 'progress': 'cmake'}
+[0.301452] (conversion_msgs) JobProgress: {'identifier': 'conversion_msgs', 'progress': 'build'}
+[0.304412] (conversion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs', '--', '-j4', '-l4'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[0.307792] (-) TimerEvent: {}
+[0.408590] (-) TimerEvent: {}
+[0.509650] (-) TimerEvent: {}
+[0.621683] (-) TimerEvent: {}
+[0.722787] (-) TimerEvent: {}
+[0.824272] (-) TimerEvent: {}
+[0.925278] (-) TimerEvent: {}
+[1.026115] (-) TimerEvent: {}
+[1.127197] (-) TimerEvent: {}
+[1.228314] (-) TimerEvent: {}
+[1.331734] (-) TimerEvent: {}
+[1.432487] (-) TimerEvent: {}
+[1.536011] (-) TimerEvent: {}
+[1.637184] (-) TimerEvent: {}
+[1.738225] (-) TimerEvent: {}
+[1.839744] (-) TimerEvent: {}
+[1.940572] (-) TimerEvent: {}
+[2.041566] (-) TimerEvent: {}
+[2.143033] (-) TimerEvent: {}
+[2.157922] (sub_control) JobProgress: {'identifier': 'sub_control', 'progress': 'cmake'}
+[2.183646] (sub_control) JobProgress: {'identifier': 'sub_control', 'progress': 'build'}
+[2.185212] (sub_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control', '--', '-j4', '-l4'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[2.216884] (conversion_msgs) CommandEnded: {'returncode': 0}
+[2.248712] (-) TimerEvent: {}
+[2.356601] (-) TimerEvent: {}
+[2.466850] (-) TimerEvent: {}
+[2.568034] (-) TimerEvent: {}
+[2.669133] (-) TimerEvent: {}
+[2.770867] (-) TimerEvent: {}
+[2.840754] (sub_control) StdoutLine: {'line': b'[ 50%] Built target velocity_controller_node\n'}
+[2.870825] (sub_control) StdoutLine: {'line': b'[100%] Built target position_controller_node\n'}
+[2.871695] (-) TimerEvent: {}
+[2.973293] (-) TimerEvent: {}
+[3.074631] (-) TimerEvent: {}
+[3.175463] (-) TimerEvent: {}
+[3.276328] (-) TimerEvent: {}
+[3.377153] (-) TimerEvent: {}
+[3.477936] (-) TimerEvent: {}
+[3.578772] (-) TimerEvent: {}
+[3.679574] (-) TimerEvent: {}
+[3.780456] (-) TimerEvent: {}
+[3.881256] (-) TimerEvent: {}
+[3.982065] (-) TimerEvent: {}
+[4.083216] (-) TimerEvent: {}
+[4.188284] (-) TimerEvent: {}
+[4.269634] (sub_control) CommandEnded: {'returncode': 0}
+[4.288521] (-) TimerEvent: {}
+[4.303360] (conversion_msgs) JobProgress: {'identifier': 'conversion_msgs', 'progress': 'install'}
+[4.384410] (conversion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/conversion_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[4.390402] (-) TimerEvent: {}
+[4.492600] (-) TimerEvent: {}
+[4.517532] (conversion_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.518374] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch\n'}
+[4.518979] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel_automatic1.py\n'}
+[4.519513] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel.py\n'}
+[4.520002] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/Sonar_2023_07_21_12_16_06.bin\n'}
+[4.531023] (conversion_msgs) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/Sonar_2023_07_21_12_44_31.bin\n'}
+[4.532747] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel_auto5.py\n'}
+[4.534006] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/Sonar_2023_07_21_12_18_58.bin\n'}
+[4.535159] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__\n'}
+[4.535719] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_sim.cpython-310.pyc\n'}
+[4.536235] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_reel_auto5.cpython-310.pyc\n'}
+[4.537131] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch.cpython-310.pyc\n'}
+[4.538605] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_2.cpython-310.pyc\n'}
+[4.539701] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_reel.cpython-310.pyc\n'}
+[4.540617] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_reel_auto3.cpython-310.pyc\n'}
+[4.541393] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/__pycache__/sub_general_launch_reel_automatic1.cpython-310.pyc\n'}
+[4.542091] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel_auto3.py\n'}
+[4.542789] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/Sonar_2023_07_21_12_29_24.bin\n'}
+[4.543375] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel_auto4 copy.py\n'}
+[4.543916] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_bridge_launch.py\n'}
+[4.544316] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/Sonar_2023_07_21_12_22_01.bin\n'}
+[4.553769] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_sim.py\n'}
+[4.554817] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs//launch/sub_general_launch_reel_auto2.py\n'}
+[4.557495] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/ament_index/resource_index/package_run_dependencies/conversion_msgs\n'}
+[4.559658] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/ament_index/resource_index/parent_prefix_path/conversion_msgs\n'}
+[4.560213] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/environment/ament_prefix_path.sh\n'}
+[4.560907] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/environment/ament_prefix_path.dsv\n'}
+[4.561374] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/environment/path.sh\n'}
+[4.562025] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/environment/path.dsv\n'}
+[4.562695] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/local_setup.bash\n'}
+[4.563441] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/local_setup.sh\n'}
+[4.586308] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/local_setup.zsh\n'}
+[4.586931] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/local_setup.dsv\n'}
+[4.587454] (conversion_msgs) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.dsv\n'}
+[4.588062] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/ament_index/resource_index/packages/conversion_msgs\n'}
+[4.589466] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/cmake/conversion_msgsConfig.cmake\n'}
+[4.590063] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/cmake/conversion_msgsConfig-version.cmake\n'}
+[4.590544] (conversion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs/share/conversion_msgs/package.xml\n'}
+[4.590996] (conversion_msgs) CommandEnded: {'returncode': 0}
+[4.603097] (-) TimerEvent: {}
+[4.704003] (-) TimerEvent: {}
+[4.795365] (sub_control) JobProgress: {'identifier': 'sub_control', 'progress': 'install'}
+[4.795718] (sub_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_control'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[4.804446] (-) TimerEvent: {}
+[4.905871] (-) TimerEvent: {}
+[4.948813] (sub_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.949522] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/position_controller_node\n'}
+[4.960786] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/lib/sub_control/velocity_controller_node\n'}
+[4.961583] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//launch\n'}
+[4.962131] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//launch/sub_control_launch.py\n'}
+[4.976884] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//config\n'}
+[4.977650] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control//config/params.yaml\n'}
+[4.978306] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/package_run_dependencies/sub_control\n'}
+[4.978818] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/parent_prefix_path/sub_control\n'}
+[4.979466] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/ament_prefix_path.sh\n'}
+[4.980033] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/ament_prefix_path.dsv\n'}
+[4.993699] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/path.sh\n'}
+[4.994528] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/environment/path.dsv\n'}
+[4.995075] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.bash\n'}
+[4.995672] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.sh\n'}
+[4.996239] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.zsh\n'}
+[5.045140] (-) TimerEvent: {}
+[5.073582] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/local_setup.dsv\n'}
+[5.074379] (sub_control) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.dsv\n'}
+[5.075246] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/ament_index/resource_index/packages/sub_control\n'}
+[5.076002] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/cmake/sub_controlConfig.cmake\n'}
+[5.077446] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/cmake/sub_controlConfig-version.cmake\n'}
+[5.078041] (sub_control) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control/share/sub_control/package.xml\n'}
+[5.078578] (sub_control) CommandEnded: {'returncode': 0}
+[5.145826] (-) TimerEvent: {}
+[5.253370] (-) TimerEvent: {}
+[5.380634] (-) TimerEvent: {}
+[5.455267] (conversion_msgs) JobEnded: {'identifier': 'conversion_msgs', 'rc': 0}
+[5.534188] (-) TimerEvent: {}
+[5.535242] (sub_etat_py) JobStarted: {'identifier': 'sub_etat_py'}
+[5.634450] (-) TimerEvent: {}
+[5.736548] (-) TimerEvent: {}
+[5.841469] (-) TimerEvent: {}
+[5.942350] (-) TimerEvent: {}
+[6.044275] (-) TimerEvent: {}
+[6.174379] (-) TimerEvent: {}
+[6.305017] (-) TimerEvent: {}
+[6.408907] (-) TimerEvent: {}
+[6.511781] (-) TimerEvent: {}
+[6.612787] (-) TimerEvent: {}
+[6.713722] (-) TimerEvent: {}
+[6.814573] (-) TimerEvent: {}
+[6.915430] (-) TimerEvent: {}
+[7.023002] (-) TimerEvent: {}
+[7.126289] (-) TimerEvent: {}
+[7.227787] (-) TimerEvent: {}
+[7.329285] (-) TimerEvent: {}
+[7.430167] (-) TimerEvent: {}
+[7.531856] (-) TimerEvent: {}
+[7.637229] (-) TimerEvent: {}
+[7.741237] (-) TimerEvent: {}
+[7.843719] (-) TimerEvent: {}
+[7.946193] (-) TimerEvent: {}
+[8.047605] (-) TimerEvent: {}
+[8.149531] (-) TimerEvent: {}
+[8.252129] (-) TimerEvent: {}
+[8.329742] (sub_control) JobEnded: {'identifier': 'sub_control', 'rc': 0}
+[8.368792] (-) TimerEvent: {}
+[8.369394] (sub_affichage) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_affichage', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_affichage', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[8.387805] (sub_ekf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_ekf', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[8.430233] (sub_guidage_c) JobStarted: {'identifier': 'sub_guidage_c'}
+[8.468962] (-) TimerEvent: {}
+[8.559467] (sub_guidage_c) JobProgress: {'identifier': 'sub_guidage_c', 'progress': 'cmake'}
+[8.572824] (sub_guidage_c) JobProgress: {'identifier': 'sub_guidage_c', 'progress': 'build'}
+[8.573124] (-) TimerEvent: {}
+[8.583770] (sub_guidage_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c', '--', '-j4', '-l4'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[8.673354] (-) TimerEvent: {}
+[8.776791] (-) TimerEvent: {}
+[8.878306] (-) TimerEvent: {}
+[9.006127] (-) TimerEvent: {}
+[9.107057] (-) TimerEvent: {}
+[9.207937] (-) TimerEvent: {}
+[9.309904] (-) TimerEvent: {}
+[9.411570] (-) TimerEvent: {}
+[9.414556] (sub_guidage_c) StdoutLine: {'line': b'[ 20%] Built target guidage_base\n'}
+[9.499053] (sub_guidage_c) StdoutLine: {'line': b'[ 40%] Built target guidage_sonar2\n'}
+[9.511859] (sub_guidage_c) StdoutLine: {'line': b'[ 60%] Built target guidage_simple\n'}
+[9.512963] (-) TimerEvent: {}
+[9.543087] (sub_guidage_c) StdoutLine: {'line': b'[ 80%] Built target guidage_sonar1\n'}
+[9.543837] (sub_guidage_c) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target guidage_sonar3\x1b[0m\n'}
+[9.616564] (-) TimerEvent: {}
+[9.721362] (-) TimerEvent: {}
+[9.828186] (-) TimerEvent: {}
+[9.885830] (sub_guidage_c) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/guidage_sonar3.dir/src/guidage_sonar3.cpp.o\x1b[0m\n'}
+[9.928393] (-) TimerEvent: {}
+[10.034282] (-) TimerEvent: {}
+[10.139557] (-) TimerEvent: {}
+[10.243405] (-) TimerEvent: {}
+[10.347402] (-) TimerEvent: {}
+[10.456559] (-) TimerEvent: {}
+[10.558757] (-) TimerEvent: {}
+[10.676587] (-) TimerEvent: {}
+[10.780679] (-) TimerEvent: {}
+[10.888552] (-) TimerEvent: {}
+[10.990713] (-) TimerEvent: {}
+[11.093367] (-) TimerEvent: {}
+[11.195022] (-) TimerEvent: {}
+[11.296725] (-) TimerEvent: {}
+[11.392724] (sub_ekf) StdoutLine: {'line': b'running egg_info\n'}
+[11.396904] (-) TimerEvent: {}
+[11.407711] (sub_ekf) StdoutLine: {'line': b'writing ../../build/sub_ekf/sub_ekf.egg-info/PKG-INFO\n'}
+[11.413982] (sub_ekf) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_ekf/sub_ekf.egg-info/dependency_links.txt\n'}
+[11.418053] (sub_ekf) StdoutLine: {'line': b'writing entry points to ../../build/sub_ekf/sub_ekf.egg-info/entry_points.txt\n'}
+[11.425108] (sub_ekf) StdoutLine: {'line': b'writing requirements to ../../build/sub_ekf/sub_ekf.egg-info/requires.txt\n'}
+[11.428944] (sub_ekf) StdoutLine: {'line': b'writing top-level names to ../../build/sub_ekf/sub_ekf.egg-info/top_level.txt\n'}
+[11.438642] (sub_ekf) StdoutLine: {'line': b"reading manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'\n"}
+[11.461124] (sub_ekf) StdoutLine: {'line': b"writing manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'\n"}
+[11.463282] (sub_ekf) StdoutLine: {'line': b'running build\n'}
+[11.464742] (sub_ekf) StdoutLine: {'line': b'running build_py\n'}
+[11.475833] (sub_ekf) StdoutLine: {'line': b'running install\n'}
+[11.481383] (sub_ekf) StdoutLine: {'line': b'running install_lib\n'}
+[11.485480] (sub_ekf) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.486319] (sub_ekf) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.503092] (-) TimerEvent: {}
+[11.527005] (sub_ekf) StdoutLine: {'line': b'running install_data\n'}
+[11.533816] (sub_ekf) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.577084] (sub_ekf) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.589304] (sub_ekf) StdoutLine: {'line': b'Copying ../../build/sub_ekf/sub_ekf.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf-0.0.0-py3.10.egg-info\n'}
+[11.603304] (-) TimerEvent: {}
+[11.609163] (sub_ekf) StdoutLine: {'line': b'running install_scripts\n'}
+[11.687578] (sub_affichage) StdoutLine: {'line': b'running egg_info\n'}
+[11.688545] (sub_affichage) StdoutLine: {'line': b'writing ../../build/sub_affichage/sub_affichage.egg-info/PKG-INFO\n'}
+[11.702998] (sub_affichage) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_affichage/sub_affichage.egg-info/dependency_links.txt\n'}
+[11.703658] (-) TimerEvent: {}
+[11.704487] (sub_affichage) StdoutLine: {'line': b'writing entry points to ../../build/sub_affichage/sub_affichage.egg-info/entry_points.txt\n'}
+[11.705193] (sub_affichage) StdoutLine: {'line': b'writing requirements to ../../build/sub_affichage/sub_affichage.egg-info/requires.txt\n'}
+[11.705615] (sub_affichage) StdoutLine: {'line': b'writing top-level names to ../../build/sub_affichage/sub_affichage.egg-info/top_level.txt\n'}
+[11.705994] (sub_affichage) StdoutLine: {'line': b"reading manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'\n"}
+[11.724543] (sub_affichage) StdoutLine: {'line': b"writing manifest file '../../build/sub_affichage/sub_affichage.egg-info/SOURCES.txt'\n"}
+[11.740540] (sub_affichage) StdoutLine: {'line': b'running build\n'}
+[11.775311] (sub_affichage) StdoutLine: {'line': b'running build_py\n'}
+[11.775960] (sub_affichage) StdoutLine: {'line': b'running install\n'}
+[11.776873] (sub_affichage) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.777819] (sub_affichage) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.778523] (sub_affichage) StdoutLine: {'line': b'running install_lib\n'}
+[11.779229] (sub_affichage) StdoutLine: {'line': b'running install_data\n'}
+[11.780010] (sub_affichage) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.781281] (sub_affichage) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.782034] (sub_affichage) StdoutLine: {'line': b'Copying ../../build/sub_affichage/sub_affichage.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages/sub_affichage-0.0.0-py3.10.egg-info\n'}
+[11.803944] (-) TimerEvent: {}
+[11.852915] (sub_affichage) StdoutLine: {'line': b'running install_scripts\n'}
+[11.905090] (-) TimerEvent: {}
+[12.006789] (-) TimerEvent: {}
+[12.040605] (sub_affichage) StdoutLine: {'line': b'Installing sub_affichage script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/sub_affichage\n'}
+[12.058515] (sub_ekf) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log'\n"}
+[12.059193] (sub_affichage) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_affichage/install.log'\n"}
+[12.114061] (-) TimerEvent: {}
+[12.228561] (-) TimerEvent: {}
+[12.400615] (-) TimerEvent: {}
+[12.525949] (-) TimerEvent: {}
+[12.565182] (sub_affichage) CommandEnded: {'returncode': 0}
+[12.629137] (-) TimerEvent: {}
+[12.663745] (sub_affichage) JobEnded: {'identifier': 'sub_affichage', 'rc': 0}
+[12.668426] (sub_interface_arduino_c) JobStarted: {'identifier': 'sub_interface_arduino_c'}
+[12.731940] (-) TimerEvent: {}
+[12.819288] (sub_ekf) CommandEnded: {'returncode': 0}
+[12.837377] (-) TimerEvent: {}
+[12.950466] (-) TimerEvent: {}
+[13.025054] (sub_ekf) JobEnded: {'identifier': 'sub_ekf', 'rc': 0}
+[13.029571] (sub_interface_arduino_py) JobStarted: {'identifier': 'sub_interface_arduino_py'}
+[13.054917] (-) TimerEvent: {}
+[13.159350] (-) TimerEvent: {}
+[13.162503] (sub_interface_arduino_c) JobProgress: {'identifier': 'sub_interface_arduino_c', 'progress': 'cmake'}
+[13.173785] (sub_interface_arduino_c) JobProgress: {'identifier': 'sub_interface_arduino_c', 'progress': 'build'}
+[13.175745] (sub_interface_arduino_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c', '--', '-j4', '-l4'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[13.259545] (-) TimerEvent: {}
+[13.360674] (-) TimerEvent: {}
+[13.461867] (-) TimerEvent: {}
+[13.563324] (-) TimerEvent: {}
+[13.666363] (-) TimerEvent: {}
+[13.773796] (-) TimerEvent: {}
+[13.880034] (-) TimerEvent: {}
+[13.981360] (-) TimerEvent: {}
+[14.055505] (sub_interface_arduino_c) StdoutLine: {'line': b'[ 50%] Built target arduino_json\n'}
+[14.081681] (-) TimerEvent: {}
+[14.182999] (-) TimerEvent: {}
+[14.284185] (-) TimerEvent: {}
+[14.335715] (sub_interface_arduino_c) StdoutLine: {'line': b'[100%] Built target serial_node\n'}
+[14.384541] (-) TimerEvent: {}
+[14.513198] (-) TimerEvent: {}
+[14.614798] (-) TimerEvent: {}
+[14.720731] (-) TimerEvent: {}
+[14.824699] (-) TimerEvent: {}
+[14.925789] (-) TimerEvent: {}
+[15.028546] (-) TimerEvent: {}
+[15.132555] (-) TimerEvent: {}
+[15.236535] (-) TimerEvent: {}
+[15.340559] (-) TimerEvent: {}
+[15.441451] (-) TimerEvent: {}
+[15.543480] (-) TimerEvent: {}
+[15.647207] (-) TimerEvent: {}
+[15.749038] (-) TimerEvent: {}
+[15.850867] (-) TimerEvent: {}
+[15.952713] (-) TimerEvent: {}
+[16.060580] (-) TimerEvent: {}
+[16.118125] (sub_etat_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_etat_py', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_etat_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[16.185737] (sub_interface_arduino_c) CommandEnded: {'returncode': 0}
+[16.187876] (-) TimerEvent: {}
+[16.290946] (-) TimerEvent: {}
+[16.393903] (-) TimerEvent: {}
+[16.496889] (-) TimerEvent: {}
+[16.598119] (-) TimerEvent: {}
+[16.699784] (-) TimerEvent: {}
+[16.804578] (-) TimerEvent: {}
+[16.909684] (sub_interface_arduino_c) JobProgress: {'identifier': 'sub_interface_arduino_c', 'progress': 'install'}
+[16.913020] (-) TimerEvent: {}
+[16.915489] (sub_interface_arduino_c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_c'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[16.967468] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.968674] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/libarduino_json.so\n'}
+[16.969662] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib/sub_interface_arduino_c/serial_node\n'}
+[16.970600] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch\n'}
+[16.971381] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/serial_test1_launch.py\n'}
+[16.972102] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__\n'}
+[16.972989] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__/serial_test1_launch.cpython-310.pyc\n'}
+[16.974701] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//launch/__pycache__/sub_control_launch.cpython-310.pyc\n'}
+[16.975745] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//config\n'}
+[16.976662] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c//config/params.yaml\n'}
+[16.977729] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include\n'}
+[16.978515] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include/serial_test1\n'}
+[16.979444] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/include/serial_test1/ArduinoJson-v6.21.2.hpp\n'}
+[16.981477] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/package_run_dependencies/sub_interface_arduino_c\n'}
+[16.997084] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/parent_prefix_path/sub_interface_arduino_c\n'}
+[16.997810] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/ament_prefix_path.sh\n'}
+[16.998661] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/ament_prefix_path.dsv\n'}
+[16.999370] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/path.sh\n'}
+[17.000110] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/environment/path.dsv\n'}
+[17.000923] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.bash\n'}
+[17.001729] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.sh\n'}
+[17.002382] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.zsh\n'}
+[17.003185] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/local_setup.dsv\n'}
+[17.003925] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.dsv\n'}
+[17.004839] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/ament_index/resource_index/packages/sub_interface_arduino_c\n'}
+[17.005762] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.006598] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/sub_interface_arduino_cConfig.cmake\n'}
+[17.007488] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/cmake/sub_interface_arduino_cConfig-version.cmake\n'}
+[17.037177] (-) TimerEvent: {}
+[17.038535] (sub_interface_arduino_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/share/sub_interface_arduino_c/package.xml\n'}
+[17.039488] (sub_interface_arduino_c) CommandEnded: {'returncode': 0}
+[17.137399] (-) TimerEvent: {}
+[17.238754] (-) TimerEvent: {}
+[17.345752] (-) TimerEvent: {}
+[17.448529] (-) TimerEvent: {}
+[17.550449] (-) TimerEvent: {}
+[17.652173] (-) TimerEvent: {}
+[17.780635] (-) TimerEvent: {}
+[17.884544] (-) TimerEvent: {}
+[17.985940] (-) TimerEvent: {}
+[18.087386] (-) TimerEvent: {}
+[18.212619] (-) TimerEvent: {}
+[18.266696] (sub_interface_arduino_c) JobEnded: {'identifier': 'sub_interface_arduino_c', 'rc': 0}
+[18.270513] (sub_map) JobStarted: {'identifier': 'sub_map'}
+[18.334907] (-) TimerEvent: {}
+[18.435896] (-) TimerEvent: {}
+[18.537690] (-) TimerEvent: {}
+[18.639388] (-) TimerEvent: {}
+[18.747260] (-) TimerEvent: {}
+[18.848305] (-) TimerEvent: {}
+[18.949579] (-) TimerEvent: {}
+[19.053112] (-) TimerEvent: {}
+[19.067892] (sub_etat_py) StdoutLine: {'line': b'running egg_info\n'}
+[19.075839] (sub_etat_py) StdoutLine: {'line': b'writing ../../build/sub_etat_py/sub_etat_py.egg-info/PKG-INFO\n'}
+[19.081500] (sub_etat_py) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_etat_py/sub_etat_py.egg-info/dependency_links.txt\n'}
+[19.086696] (sub_etat_py) StdoutLine: {'line': b'writing entry points to ../../build/sub_etat_py/sub_etat_py.egg-info/entry_points.txt\n'}
+[19.089478] (sub_etat_py) StdoutLine: {'line': b'writing requirements to ../../build/sub_etat_py/sub_etat_py.egg-info/requires.txt\n'}
+[19.092020] (sub_etat_py) StdoutLine: {'line': b'writing top-level names to ../../build/sub_etat_py/sub_etat_py.egg-info/top_level.txt\n'}
+[19.109473] (sub_etat_py) StdoutLine: {'line': b"reading manifest file '../../build/sub_etat_py/sub_etat_py.egg-info/SOURCES.txt'\n"}
+[19.119225] (sub_etat_py) StdoutLine: {'line': b"writing manifest file '../../build/sub_etat_py/sub_etat_py.egg-info/SOURCES.txt'\n"}
+[19.133701] (sub_etat_py) StdoutLine: {'line': b'running build\n'}
+[19.134981] (sub_etat_py) StdoutLine: {'line': b'running build_py\n'}
+[19.139511] (sub_etat_py) StdoutLine: {'line': b'running install\n'}
+[19.141992] (sub_etat_py) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[19.143480] (sub_etat_py) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.146592] (sub_etat_py) StdoutLine: {'line': b'running install_lib\n'}
+[19.153355] (-) TimerEvent: {}
+[19.173517] (sub_etat_py) StdoutLine: {'line': b'running install_data\n'}
+[19.178320] (sub_etat_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.194778] (sub_etat_py) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.207613] (sub_etat_py) StdoutLine: {'line': b'Copying ../../build/sub_etat_py/sub_etat_py.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages/sub_etat_py-0.0.0-py3.10.egg-info\n'}
+[19.254695] (-) TimerEvent: {}
+[19.257395] (sub_etat_py) StdoutLine: {'line': b'running install_scripts\n'}
+[19.354926] (-) TimerEvent: {}
+[19.455883] (-) TimerEvent: {}
+[19.474325] (sub_etat_py) StdoutLine: {'line': b'Installing etat_node script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/sub_etat_py\n'}
+[19.477892] (sub_etat_py) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_etat_py/install.log'\n"}
+[19.556089] (-) TimerEvent: {}
+[19.692860] (-) TimerEvent: {}
+[19.793888] (-) TimerEvent: {}
+[19.895324] (-) TimerEvent: {}
+[19.996517] (-) TimerEvent: {}
+[20.112708] (-) TimerEvent: {}
+[20.213692] (-) TimerEvent: {}
+[20.314667] (-) TimerEvent: {}
+[20.415785] (-) TimerEvent: {}
+[20.517862] (-) TimerEvent: {}
+[20.620798] (-) TimerEvent: {}
+[20.722315] (-) TimerEvent: {}
+[20.844709] (-) TimerEvent: {}
+[20.948601] (-) TimerEvent: {}
+[21.052565] (-) TimerEvent: {}
+[21.153622] (-) TimerEvent: {}
+[21.254930] (-) TimerEvent: {}
+[21.356623] (-) TimerEvent: {}
+[21.458889] (-) TimerEvent: {}
+[21.486419] (sub_interface_arduino_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_interface_arduino_py', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_interface_arduino_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[21.536563] (sub_etat_py) CommandEnded: {'returncode': 0}
+[21.573191] (-) TimerEvent: {}
+[21.699939] (sub_etat_py) JobEnded: {'identifier': 'sub_etat_py', 'rc': 0}
+[21.711502] (-) TimerEvent: {}
+[21.723191] (sub_sonar) JobStarted: {'identifier': 'sub_sonar'}
+[21.811692] (-) TimerEvent: {}
+[21.919207] (-) TimerEvent: {}
+[22.057034] (-) TimerEvent: {}
+[22.164235] (-) TimerEvent: {}
+[22.265984] (-) TimerEvent: {}
+[22.367709] (-) TimerEvent: {}
+[22.469135] (-) TimerEvent: {}
+[22.571248] (-) TimerEvent: {}
+[22.672165] (-) TimerEvent: {}
+[22.773566] (-) TimerEvent: {}
+[22.875854] (-) TimerEvent: {}
+[22.978061] (-) TimerEvent: {}
+[23.080750] (-) TimerEvent: {}
+[23.182116] (-) TimerEvent: {}
+[23.284070] (-) TimerEvent: {}
+[23.386233] (-) TimerEvent: {}
+[23.500590] (-) TimerEvent: {}
+[23.602224] (-) TimerEvent: {}
+[23.704419] (-) TimerEvent: {}
+[23.806017] (-) TimerEvent: {}
+[23.908241] (-) TimerEvent: {}
+[24.012747] (-) TimerEvent: {}
+[24.114180] (-) TimerEvent: {}
+[24.220568] (-) TimerEvent: {}
+[24.324681] (-) TimerEvent: {}
+[24.425758] (-) TimerEvent: {}
+[24.528592] (-) TimerEvent: {}
+[24.632586] (-) TimerEvent: {}
+[24.740557] (-) TimerEvent: {}
+[24.842245] (-) TimerEvent: {}
+[24.853495] (sub_interface_arduino_py) StdoutLine: {'line': b'running egg_info\n'}
+[24.864189] (sub_interface_arduino_py) StdoutLine: {'line': b'writing ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/PKG-INFO\n'}
+[24.867284] (sub_interface_arduino_py) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/dependency_links.txt\n'}
+[24.871337] (sub_interface_arduino_py) StdoutLine: {'line': b'writing entry points to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/entry_points.txt\n'}
+[24.877317] (sub_interface_arduino_py) StdoutLine: {'line': b'writing requirements to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/requires.txt\n'}
+[24.885129] (sub_interface_arduino_py) StdoutLine: {'line': b'writing top-level names to ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/top_level.txt\n'}
+[24.911722] (sub_interface_arduino_py) StdoutLine: {'line': b"reading manifest file '../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/SOURCES.txt'\n"}
+[24.942459] (-) TimerEvent: {}
+[25.005115] (sub_interface_arduino_py) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[25.006285] (sub_interface_arduino_py) StderrLine: {'line': b'  warnings.warn(\n'}
+[25.007001] (sub_interface_arduino_py) StdoutLine: {'line': b"writing manifest file '../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info/SOURCES.txt'\n"}
+[25.007787] (sub_interface_arduino_py) StdoutLine: {'line': b'running build\n'}
+[25.028644] (sub_interface_arduino_py) StdoutLine: {'line': b'running build_py\n'}
+[25.029451] (sub_interface_arduino_py) StdoutLine: {'line': b'running install\n'}
+[25.030076] (sub_interface_arduino_py) StdoutLine: {'line': b'running install_lib\n'}
+[25.030694] (sub_interface_arduino_py) StdoutLine: {'line': b'running install_data\n'}
+[25.031268] (sub_interface_arduino_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.031854] (sub_interface_arduino_py) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages/sub_interface_arduino_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.044678] (-) TimerEvent: {}
+[25.045848] (sub_interface_arduino_py) StdoutLine: {'line': b'Copying ../../build/sub_interface_arduino_py/sub_interface_arduino_py.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages/sub_interface_arduino_py-0.0.0-py3.10.egg-info\n'}
+[25.061278] (sub_interface_arduino_py) StdoutLine: {'line': b'running install_scripts\n'}
+[25.161175] (-) TimerEvent: {}
+[25.272595] (-) TimerEvent: {}
+[25.304205] (sub_interface_arduino_py) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_interface_arduino_py/install.log'\n"}
+[25.381602] (-) TimerEvent: {}
+[25.485015] (-) TimerEvent: {}
+[25.600671] (-) TimerEvent: {}
+[25.717368] (-) TimerEvent: {}
+[25.782649] (sub_interface_arduino_py) CommandEnded: {'returncode': 0}
+[25.825700] (-) TimerEvent: {}
+[25.926818] (-) TimerEvent: {}
+[25.942682] (sub_interface_arduino_py) JobEnded: {'identifier': 'sub_interface_arduino_py', 'rc': 0}
+[25.952102] (sub_teleop) JobStarted: {'identifier': 'sub_teleop'}
+[26.027069] (-) TimerEvent: {}
+[26.145294] (-) TimerEvent: {}
+[26.255470] (-) TimerEvent: {}
+[26.369205] (-) TimerEvent: {}
+[26.496641] (-) TimerEvent: {}
+[26.624326] (-) TimerEvent: {}
+[26.768663] (-) TimerEvent: {}
+[26.870444] (-) TimerEvent: {}
+[26.978175] (-) TimerEvent: {}
+[27.080820] (-) TimerEvent: {}
+[27.188888] (-) TimerEvent: {}
+[27.290810] (-) TimerEvent: {}
+[27.392406] (-) TimerEvent: {}
+[27.494243] (-) TimerEvent: {}
+[27.595191] (-) TimerEvent: {}
+[27.697596] (-) TimerEvent: {}
+[27.800666] (-) TimerEvent: {}
+[27.902333] (-) TimerEvent: {}
+[28.003289] (-) TimerEvent: {}
+[28.104506] (-) TimerEvent: {}
+[28.206295] (-) TimerEvent: {}
+[28.308108] (-) TimerEvent: {}
+[28.412708] (-) TimerEvent: {}
+[28.523426] (-) TimerEvent: {}
+[28.628738] (-) TimerEvent: {}
+[28.730796] (-) TimerEvent: {}
+[28.836563] (-) TimerEvent: {}
+[28.939060] (-) TimerEvent: {}
+[29.044730] (-) TimerEvent: {}
+[29.148550] (-) TimerEvent: {}
+[29.256612] (-) TimerEvent: {}
+[29.363671] (-) TimerEvent: {}
+[29.409072] (sub_map) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_map', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_map', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[29.464126] (-) TimerEvent: {}
+[29.565422] (-) TimerEvent: {}
+[29.667108] (-) TimerEvent: {}
+[29.768847] (-) TimerEvent: {}
+[29.893708] (-) TimerEvent: {}
+[29.994809] (-) TimerEvent: {}
+[30.096017] (-) TimerEvent: {}
+[30.199566] (-) TimerEvent: {}
+[30.225326] (sub_sonar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_sonar', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[30.301149] (-) TimerEvent: {}
+[30.423390] (-) TimerEvent: {}
+[30.528838] (-) TimerEvent: {}
+[30.640587] (-) TimerEvent: {}
+[30.741603] (-) TimerEvent: {}
+[30.842948] (-) TimerEvent: {}
+[30.948695] (-) TimerEvent: {}
+[31.056878] (-) TimerEvent: {}
+[31.164242] (-) TimerEvent: {}
+[31.277414] (-) TimerEvent: {}
+[31.378389] (-) TimerEvent: {}
+[31.492554] (-) TimerEvent: {}
+[31.593599] (-) TimerEvent: {}
+[31.694724] (-) TimerEvent: {}
+[31.796665] (-) TimerEvent: {}
+[31.897571] (-) TimerEvent: {}
+[32.000674] (-) TimerEvent: {}
+[32.101532] (-) TimerEvent: {}
+[32.208730] (-) TimerEvent: {}
+[32.320554] (-) TimerEvent: {}
+[32.422513] (-) TimerEvent: {}
+[32.453401] (sub_map) StdoutLine: {'line': b'running egg_info\n'}
+[32.460570] (sub_map) StdoutLine: {'line': b'writing ../../build/sub_map/sub_map.egg-info/PKG-INFO\n'}
+[32.463047] (sub_map) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_map/sub_map.egg-info/dependency_links.txt\n'}
+[32.465685] (sub_map) StdoutLine: {'line': b'writing entry points to ../../build/sub_map/sub_map.egg-info/entry_points.txt\n'}
+[32.468287] (sub_map) StdoutLine: {'line': b'writing requirements to ../../build/sub_map/sub_map.egg-info/requires.txt\n'}
+[32.470354] (sub_map) StdoutLine: {'line': b'writing top-level names to ../../build/sub_map/sub_map.egg-info/top_level.txt\n'}
+[32.481123] (sub_map) StdoutLine: {'line': b"reading manifest file '../../build/sub_map/sub_map.egg-info/SOURCES.txt'\n"}
+[32.496762] (sub_map) StdoutLine: {'line': b"writing manifest file '../../build/sub_map/sub_map.egg-info/SOURCES.txt'\n"}
+[32.499412] (sub_map) StdoutLine: {'line': b'running build\n'}
+[32.505109] (sub_map) StdoutLine: {'line': b'running build_py\n'}
+[32.508242] (sub_map) StdoutLine: {'line': b'running install\n'}
+[32.516842] (sub_map) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[32.518902] (sub_map) StderrLine: {'line': b'  warnings.warn(\n'}
+[32.523026] (-) TimerEvent: {}
+[32.533685] (sub_map) StdoutLine: {'line': b'running install_lib\n'}
+[32.566855] (sub_map) StdoutLine: {'line': b'running install_data\n'}
+[32.601434] (sub_map) StdoutLine: {'line': b'running install_egg_info\n'}
+[32.613024] (sub_map) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages/sub_map-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[32.616453] (sub_map) StdoutLine: {'line': b'Copying ../../build/sub_map/sub_map.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages/sub_map-0.0.0-py3.10.egg-info\n'}
+[32.623249] (-) TimerEvent: {}
+[32.629606] (sub_map) StdoutLine: {'line': b'running install_scripts\n'}
+[32.723484] (-) TimerEvent: {}
+[32.783716] (sub_map) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_map/install.log'\n"}
+[32.830082] (-) TimerEvent: {}
+[32.932577] (-) TimerEvent: {}
+[33.039988] (-) TimerEvent: {}
+[33.083841] (sub_map) CommandEnded: {'returncode': 0}
+[33.143105] (-) TimerEvent: {}
+[33.250226] (-) TimerEvent: {}
+[33.269298] (sub_map) JobEnded: {'identifier': 'sub_map', 'rc': 0}
+[33.274062] (sub_teleop_play) JobStarted: {'identifier': 'sub_teleop_play'}
+[33.342591] (sub_sonar) StdoutLine: {'line': b'running egg_info\n'}
+[33.348695] (sub_sonar) StdoutLine: {'line': b'writing ../../build/sub_sonar/sub_sonar.egg-info/PKG-INFO\n'}
+[33.363410] (-) TimerEvent: {}
+[33.407696] (sub_sonar) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_sonar/sub_sonar.egg-info/dependency_links.txt\n'}
+[33.409448] (sub_sonar) StdoutLine: {'line': b'writing entry points to ../../build/sub_sonar/sub_sonar.egg-info/entry_points.txt\n'}
+[33.413160] (sub_sonar) StdoutLine: {'line': b'writing requirements to ../../build/sub_sonar/sub_sonar.egg-info/requires.txt\n'}
+[33.414006] (sub_sonar) StdoutLine: {'line': b'writing top-level names to ../../build/sub_sonar/sub_sonar.egg-info/top_level.txt\n'}
+[33.439416] (sub_sonar) StdoutLine: {'line': b"reading manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'\n"}
+[33.463716] (-) TimerEvent: {}
+[33.512921] (sub_teleop_play) JobProgress: {'identifier': 'sub_teleop_play', 'progress': 'cmake'}
+[33.518403] (sub_sonar) StdoutLine: {'line': b"writing manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'\n"}
+[33.539126] (sub_teleop_play) JobProgress: {'identifier': 'sub_teleop_play', 'progress': 'build'}
+[33.544209] (sub_sonar) StdoutLine: {'line': b'running build\n'}
+[33.560822] (sub_sonar) StdoutLine: {'line': b'running build_py\n'}
+[33.620817] (-) TimerEvent: {}
+[33.622559] (sub_sonar) StdoutLine: {'line': b'running install\n'}
+[33.627633] (sub_sonar) StdoutLine: {'line': b'running install_lib\n'}
+[33.628537] (sub_teleop_play) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play', '--', '-j4', '-l4'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[33.675343] (sub_sonar) StdoutLine: {'line': b'running install_data\n'}
+[33.676120] (sub_sonar) StdoutLine: {'line': b'running install_egg_info\n'}
+[33.697253] (sub_sonar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[33.697986] (sub_sonar) StderrLine: {'line': b'  warnings.warn(\n'}
+[33.698591] (sub_sonar) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[33.699246] (sub_sonar) StdoutLine: {'line': b'Copying ../../build/sub_sonar/sub_sonar.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar-0.0.0-py3.10.egg-info\n'}
+[33.700187] (sub_sonar) StdoutLine: {'line': b'running install_scripts\n'}
+[33.720950] (-) TimerEvent: {}
+[33.801868] (sub_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sub_teleop', 'build', '--build-base', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/build', 'install', '--record', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nemo', 'SSH_AGENT_PID': '1629', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nemo', 'OLDPWD': '/home/nemo', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2741', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nemo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs'}, 'shell': False}
+[33.821250] (-) TimerEvent: {}
+[33.924612] (-) TimerEvent: {}
+[33.947521] (sub_sonar) StdoutLine: {'line': b'Installing sonar_scan script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/sub_sonar\n'}
+[33.952506] (sub_sonar) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log'\n"}
+[34.024809] (-) TimerEvent: {}
+[34.125886] (-) TimerEvent: {}
+[34.229727] (-) TimerEvent: {}
+[34.333170] (sub_sonar) CommandEnded: {'returncode': 0}
+[34.335365] (-) TimerEvent: {}
+[34.441549] (-) TimerEvent: {}
+[34.522572] (sub_sonar) JobEnded: {'identifier': 'sub_sonar', 'rc': 0}
+[34.542021] (-) TimerEvent: {}
+[34.611617] (sub_teleop_play) StdoutLine: {'line': b'[100%] Built target teleop_twist_playstation\n'}
+[34.646482] (-) TimerEvent: {}
+[34.711400] (sub_teleop_play) CommandEnded: {'returncode': 0}
+[34.758570] (-) TimerEvent: {}
+[34.860348] (-) TimerEvent: {}
+[34.964554] (-) TimerEvent: {}
+[35.045186] (sub_teleop_play) JobProgress: {'identifier': 'sub_teleop_play', 'progress': 'install'}
+[35.045481] (sub_teleop_play) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop_play'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[35.068668] (-) TimerEvent: {}
+[35.132717] (sub_teleop_play) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.136550] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/lib/sub_teleop_play/teleop_twist_playstation\n'}
+[35.142498] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch\n'}
+[35.143208] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/sub_teleop_play_launch.py\n'}
+[35.143849] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/__pycache__\n'}
+[35.144462] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//launch/__pycache__/sub_teleop_play.cpython-310.pyc\n'}
+[35.165064] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//config\n'}
+[35.169507] (-) TimerEvent: {}
+[35.170757] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play//config/params.yaml\n'}
+[35.171546] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/package_run_dependencies/sub_teleop_play\n'}
+[35.172169] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/parent_prefix_path/sub_teleop_play\n'}
+[35.176302] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/ament_prefix_path.sh\n'}
+[35.176958] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/ament_prefix_path.dsv\n'}
+[35.177660] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/path.sh\n'}
+[35.178435] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/environment/path.dsv\n'}
+[35.178990] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.bash\n'}
+[35.179592] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.sh\n'}
+[35.180163] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.zsh\n'}
+[35.203649] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/local_setup.dsv\n'}
+[35.204312] (sub_teleop_play) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.dsv\n'}
+[35.206725] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/ament_index/resource_index/packages/sub_teleop_play\n'}
+[35.225973] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/cmake/sub_teleop_playConfig.cmake\n'}
+[35.226755] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/cmake/sub_teleop_playConfig-version.cmake\n'}
+[35.228274] (sub_teleop_play) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play/share/sub_teleop_play/package.xml\n'}
+[35.255079] (sub_teleop_play) CommandEnded: {'returncode': 0}
+[35.321362] (-) TimerEvent: {}
+[35.428624] (-) TimerEvent: {}
+[35.529990] (-) TimerEvent: {}
+[35.631048] (-) TimerEvent: {}
+[35.741758] (-) TimerEvent: {}
+[35.845027] (-) TimerEvent: {}
+[35.953649] (-) TimerEvent: {}
+[36.055010] (-) TimerEvent: {}
+[36.094717] (sub_teleop_play) JobEnded: {'identifier': 'sub_teleop_play', 'rc': 0}
+[36.155412] (-) TimerEvent: {}
+[36.256468] (-) TimerEvent: {}
+[36.358216] (-) TimerEvent: {}
+[36.459601] (-) TimerEvent: {}
+[36.564411] (-) TimerEvent: {}
+[36.668607] (-) TimerEvent: {}
+[36.772566] (-) TimerEvent: {}
+[36.876584] (-) TimerEvent: {}
+[36.980547] (-) TimerEvent: {}
+[37.001715] (sub_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[37.005760] (sub_teleop) StdoutLine: {'line': b'writing ../../build/sub_teleop/sub_teleop.egg-info/PKG-INFO\n'}
+[37.007454] (sub_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/sub_teleop/sub_teleop.egg-info/dependency_links.txt\n'}
+[37.009035] (sub_teleop) StdoutLine: {'line': b'writing entry points to ../../build/sub_teleop/sub_teleop.egg-info/entry_points.txt\n'}
+[37.010455] (sub_teleop) StdoutLine: {'line': b'writing requirements to ../../build/sub_teleop/sub_teleop.egg-info/requires.txt\n'}
+[37.011541] (sub_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/sub_teleop/sub_teleop.egg-info/top_level.txt\n'}
+[37.024784] (sub_teleop) StdoutLine: {'line': b"reading manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'\n"}
+[37.042952] (sub_teleop) StdoutLine: {'line': b"writing manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'\n"}
+[37.043857] (sub_teleop) StdoutLine: {'line': b'running build\n'}
+[37.047975] (sub_teleop) StdoutLine: {'line': b'running build_py\n'}
+[37.049098] (sub_teleop) StdoutLine: {'line': b'running install\n'}
+[37.050386] (sub_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[37.051386] (sub_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[37.052103] (sub_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[37.072921] (sub_teleop) StdoutLine: {'line': b'running install_data\n'}
+[37.074521] (sub_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[37.087722] (sub_teleop) StdoutLine: {'line': b"removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[37.088893] (-) TimerEvent: {}
+[37.105124] (sub_teleop) StdoutLine: {'line': b'Copying ../../build/sub_teleop/sub_teleop.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info\n'}
+[37.148578] (sub_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[37.189153] (-) TimerEvent: {}
+[37.292581] (-) TimerEvent: {}
+[37.300566] (sub_teleop) StdoutLine: {'line': b'Installing teleop_twist_keyboard_vf script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop\n'}
+[37.305103] (sub_teleop) StdoutLine: {'line': b'Installing teleop_twist_keyboard_vf2 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop\n'}
+[37.305675] (sub_teleop) StdoutLine: {'line': b'Installing teleop_twist_keyboard_vf3 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop\n'}
+[37.306282] (sub_teleop) StdoutLine: {'line': b'Installing teleop_twist_keyboard_vf_gazebo script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop\n'}
+[37.312827] (sub_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log'\n"}
+[37.392925] (-) TimerEvent: {}
+[37.498009] (sub_teleop) CommandEnded: {'returncode': 0}
+[37.525602] (-) TimerEvent: {}
+[37.629368] (-) TimerEvent: {}
+[37.657180] (sub_teleop) JobEnded: {'identifier': 'sub_teleop', 'rc': 0}
+[37.729620] (-) TimerEvent: {}
+[37.830646] (-) TimerEvent: {}
+[37.931783] (-) TimerEvent: {}
+[38.032723] (-) TimerEvent: {}
+[38.133810] (-) TimerEvent: {}
+[38.234773] (-) TimerEvent: {}
+[38.335791] (-) TimerEvent: {}
+[38.436759] (-) TimerEvent: {}
+[38.537744] (-) TimerEvent: {}
+[38.638741] (-) TimerEvent: {}
+[38.739730] (-) TimerEvent: {}
+[38.840774] (-) TimerEvent: {}
+[38.941792] (-) TimerEvent: {}
+[39.042683] (-) TimerEvent: {}
+[39.143646] (-) TimerEvent: {}
+[39.244717] (-) TimerEvent: {}
+[39.345686] (-) TimerEvent: {}
+[39.446663] (-) TimerEvent: {}
+[39.547659] (-) TimerEvent: {}
+[39.648663] (-) TimerEvent: {}
+[39.749632] (-) TimerEvent: {}
+[39.850587] (-) TimerEvent: {}
+[39.951564] (-) TimerEvent: {}
+[40.052579] (-) TimerEvent: {}
+[40.153496] (-) TimerEvent: {}
+[40.254439] (-) TimerEvent: {}
+[40.355360] (-) TimerEvent: {}
+[40.456305] (-) TimerEvent: {}
+[40.557262] (-) TimerEvent: {}
+[40.658215] (-) TimerEvent: {}
+[40.759275] (-) TimerEvent: {}
+[40.860235] (-) TimerEvent: {}
+[40.961194] (-) TimerEvent: {}
+[41.062158] (-) TimerEvent: {}
+[41.163255] (-) TimerEvent: {}
+[41.264206] (-) TimerEvent: {}
+[41.365169] (-) TimerEvent: {}
+[41.466192] (-) TimerEvent: {}
+[41.567174] (-) TimerEvent: {}
+[41.668138] (-) TimerEvent: {}
+[41.769043] (-) TimerEvent: {}
+[41.870034] (-) TimerEvent: {}
+[41.971026] (-) TimerEvent: {}
+[42.071970] (-) TimerEvent: {}
+[42.172984] (-) TimerEvent: {}
+[42.273985] (-) TimerEvent: {}
+[42.374956] (-) TimerEvent: {}
+[42.476139] (-) TimerEvent: {}
+[42.577155] (-) TimerEvent: {}
+[42.678124] (-) TimerEvent: {}
+[42.779097] (-) TimerEvent: {}
+[42.880093] (-) TimerEvent: {}
+[42.981182] (-) TimerEvent: {}
+[43.082222] (-) TimerEvent: {}
+[43.183194] (-) TimerEvent: {}
+[43.284181] (-) TimerEvent: {}
+[43.385151] (-) TimerEvent: {}
+[43.486129] (-) TimerEvent: {}
+[43.587095] (-) TimerEvent: {}
+[43.688098] (-) TimerEvent: {}
+[43.789058] (-) TimerEvent: {}
+[43.890080] (-) TimerEvent: {}
+[43.991084] (-) TimerEvent: {}
+[44.092040] (-) TimerEvent: {}
+[44.192984] (-) TimerEvent: {}
+[44.293887] (-) TimerEvent: {}
+[44.394854] (-) TimerEvent: {}
+[44.495797] (-) TimerEvent: {}
+[44.596894] (-) TimerEvent: {}
+[44.698468] (-) TimerEvent: {}
+[44.804591] (-) TimerEvent: {}
+[44.905547] (-) TimerEvent: {}
+[45.006570] (-) TimerEvent: {}
+[45.107627] (-) TimerEvent: {}
+[45.208604] (-) TimerEvent: {}
+[45.309548] (-) TimerEvent: {}
+[45.410574] (-) TimerEvent: {}
+[45.511595] (-) TimerEvent: {}
+[45.612599] (-) TimerEvent: {}
+[45.713668] (-) TimerEvent: {}
+[45.814783] (-) TimerEvent: {}
+[45.915832] (-) TimerEvent: {}
+[46.016832] (-) TimerEvent: {}
+[46.117765] (-) TimerEvent: {}
+[46.218627] (-) TimerEvent: {}
+[46.319499] (-) TimerEvent: {}
+[46.420504] (-) TimerEvent: {}
+[46.521509] (-) TimerEvent: {}
+[46.622503] (-) TimerEvent: {}
+[46.723474] (-) TimerEvent: {}
+[46.824572] (-) TimerEvent: {}
+[46.925527] (-) TimerEvent: {}
+[47.026523] (-) TimerEvent: {}
+[47.127548] (-) TimerEvent: {}
+[47.228561] (-) TimerEvent: {}
+[47.329524] (-) TimerEvent: {}
+[47.430476] (-) TimerEvent: {}
+[47.531495] (-) TimerEvent: {}
+[47.632494] (-) TimerEvent: {}
+[47.733435] (-) TimerEvent: {}
+[47.834402] (-) TimerEvent: {}
+[47.935426] (-) TimerEvent: {}
+[48.036436] (-) TimerEvent: {}
+[48.137304] (-) TimerEvent: {}
+[48.238290] (-) TimerEvent: {}
+[48.339675] (-) TimerEvent: {}
+[48.440600] (-) TimerEvent: {}
+[48.541513] (-) TimerEvent: {}
+[48.642416] (-) TimerEvent: {}
+[48.743348] (-) TimerEvent: {}
+[48.844337] (-) TimerEvent: {}
+[48.945268] (-) TimerEvent: {}
+[49.046254] (-) TimerEvent: {}
+[49.147231] (-) TimerEvent: {}
+[49.248210] (-) TimerEvent: {}
+[49.349294] (-) TimerEvent: {}
+[49.450261] (-) TimerEvent: {}
+[49.551254] (-) TimerEvent: {}
+[49.652233] (-) TimerEvent: {}
+[49.753206] (-) TimerEvent: {}
+[49.854169] (-) TimerEvent: {}
+[49.955137] (-) TimerEvent: {}
+[50.056118] (-) TimerEvent: {}
+[50.157115] (-) TimerEvent: {}
+[50.258342] (-) TimerEvent: {}
+[50.362222] (-) TimerEvent: {}
+[50.463137] (-) TimerEvent: {}
+[50.564122] (-) TimerEvent: {}
+[50.665091] (-) TimerEvent: {}
+[50.766069] (-) TimerEvent: {}
+[50.867025] (-) TimerEvent: {}
+[50.967963] (-) TimerEvent: {}
+[51.068906] (-) TimerEvent: {}
+[51.169905] (-) TimerEvent: {}
+[51.270868] (-) TimerEvent: {}
+[51.371825] (-) TimerEvent: {}
+[51.472796] (-) TimerEvent: {}
+[51.573745] (-) TimerEvent: {}
+[51.674716] (-) TimerEvent: {}
+[51.775704] (-) TimerEvent: {}
+[51.876730] (-) TimerEvent: {}
+[51.977680] (-) TimerEvent: {}
+[52.078642] (-) TimerEvent: {}
+[52.179627] (-) TimerEvent: {}
+[52.280642] (-) TimerEvent: {}
+[52.381588] (-) TimerEvent: {}
+[52.482526] (-) TimerEvent: {}
+[52.583477] (-) TimerEvent: {}
+[52.684457] (-) TimerEvent: {}
+[52.785369] (-) TimerEvent: {}
+[52.886309] (-) TimerEvent: {}
+[52.987277] (-) TimerEvent: {}
+[53.088308] (-) TimerEvent: {}
+[53.189682] (-) TimerEvent: {}
+[53.296321] (-) TimerEvent: {}
+[53.399207] (-) TimerEvent: {}
+[53.502086] (-) TimerEvent: {}
+[53.603169] (-) TimerEvent: {}
+[53.704665] (-) TimerEvent: {}
+[53.805518] (-) TimerEvent: {}
+[53.906427] (-) TimerEvent: {}
+[54.007356] (-) TimerEvent: {}
+[54.108301] (-) TimerEvent: {}
+[54.209190] (-) TimerEvent: {}
+[54.310078] (-) TimerEvent: {}
+[54.410971] (-) TimerEvent: {}
+[54.511988] (-) TimerEvent: {}
+[54.612978] (-) TimerEvent: {}
+[54.713931] (-) TimerEvent: {}
+[54.814894] (-) TimerEvent: {}
+[54.915934] (-) TimerEvent: {}
+[55.017008] (-) TimerEvent: {}
+[55.117965] (-) TimerEvent: {}
+[55.218979] (-) TimerEvent: {}
+[55.319943] (-) TimerEvent: {}
+[55.420904] (-) TimerEvent: {}
+[55.521854] (-) TimerEvent: {}
+[55.622872] (-) TimerEvent: {}
+[55.723846] (-) TimerEvent: {}
+[55.824819] (-) TimerEvent: {}
+[55.925787] (-) TimerEvent: {}
+[56.026970] (-) TimerEvent: {}
+[56.130150] (-) TimerEvent: {}
+[56.231650] (-) TimerEvent: {}
+[56.334483] (-) TimerEvent: {}
+[56.435431] (-) TimerEvent: {}
+[56.536423] (-) TimerEvent: {}
+[56.637334] (-) TimerEvent: {}
+[56.738349] (-) TimerEvent: {}
+[56.839387] (-) TimerEvent: {}
+[56.940577] (-) TimerEvent: {}
+[57.044108] (-) TimerEvent: {}
+[57.145459] (-) TimerEvent: {}
+[57.246447] (-) TimerEvent: {}
+[57.347447] (-) TimerEvent: {}
+[57.448509] (-) TimerEvent: {}
+[57.549719] (-) TimerEvent: {}
+[57.651042] (-) TimerEvent: {}
+[57.754523] (-) TimerEvent: {}
+[57.855658] (-) TimerEvent: {}
+[57.957063] (-) TimerEvent: {}
+[58.058439] (-) TimerEvent: {}
+[58.159422] (-) TimerEvent: {}
+[58.260511] (-) TimerEvent: {}
+[58.361479] (-) TimerEvent: {}
+[58.462479] (-) TimerEvent: {}
+[58.563559] (-) TimerEvent: {}
+[58.664806] (-) TimerEvent: {}
+[58.768941] (-) TimerEvent: {}
+[58.869764] (-) TimerEvent: {}
+[58.970731] (-) TimerEvent: {}
+[59.072595] (-) TimerEvent: {}
+[59.173492] (-) TimerEvent: {}
+[59.274467] (-) TimerEvent: {}
+[59.375683] (-) TimerEvent: {}
+[59.478930] (-) TimerEvent: {}
+[59.581366] (-) TimerEvent: {}
+[59.682241] (-) TimerEvent: {}
+[59.783223] (-) TimerEvent: {}
+[59.884191] (-) TimerEvent: {}
+[59.985197] (-) TimerEvent: {}
+[60.086174] (-) TimerEvent: {}
+[60.187160] (-) TimerEvent: {}
+[60.288126] (-) TimerEvent: {}
+[60.389134] (-) TimerEvent: {}
+[60.490110] (-) TimerEvent: {}
+[60.591101] (-) TimerEvent: {}
+[60.692051] (-) TimerEvent: {}
+[60.793167] (-) TimerEvent: {}
+[60.894110] (-) TimerEvent: {}
+[60.995094] (-) TimerEvent: {}
+[61.096130] (-) TimerEvent: {}
+[61.197194] (-) TimerEvent: {}
+[61.298756] (-) TimerEvent: {}
+[61.400091] (-) TimerEvent: {}
+[61.504597] (-) TimerEvent: {}
+[61.605650] (-) TimerEvent: {}
+[61.708686] (-) TimerEvent: {}
+[61.809487] (-) TimerEvent: {}
+[61.910516] (-) TimerEvent: {}
+[62.012021] (-) TimerEvent: {}
+[62.112942] (-) TimerEvent: {}
+[62.213950] (-) TimerEvent: {}
+[62.316235] (-) TimerEvent: {}
+[62.417201] (-) TimerEvent: {}
+[62.518120] (-) TimerEvent: {}
+[62.619431] (-) TimerEvent: {}
+[62.722807] (-) TimerEvent: {}
+[62.823761] (-) TimerEvent: {}
+[62.924741] (-) TimerEvent: {}
+[63.025777] (-) TimerEvent: {}
+[63.127182] (-) TimerEvent: {}
+[63.228219] (-) TimerEvent: {}
+[63.329285] (-) TimerEvent: {}
+[63.430678] (-) TimerEvent: {}
+[63.534212] (-) TimerEvent: {}
+[63.635215] (-) TimerEvent: {}
+[63.736717] (-) TimerEvent: {}
+[63.837646] (-) TimerEvent: {}
+[63.938618] (-) TimerEvent: {}
+[64.040649] (-) TimerEvent: {}
+[64.141770] (-) TimerEvent: {}
+[64.242860] (-) TimerEvent: {}
+[64.343820] (-) TimerEvent: {}
+[64.444746] (-) TimerEvent: {}
+[64.545676] (-) TimerEvent: {}
+[64.646650] (-) TimerEvent: {}
+[64.747637] (-) TimerEvent: {}
+[64.848586] (-) TimerEvent: {}
+[64.949581] (-) TimerEvent: {}
+[65.050492] (-) TimerEvent: {}
+[65.151402] (-) TimerEvent: {}
+[65.252285] (-) TimerEvent: {}
+[65.353243] (-) TimerEvent: {}
+[65.454187] (-) TimerEvent: {}
+[65.555141] (-) TimerEvent: {}
+[65.656131] (-) TimerEvent: {}
+[65.757399] (-) TimerEvent: {}
+[65.859913] (-) TimerEvent: {}
+[65.964186] (-) TimerEvent: {}
+[66.065189] (-) TimerEvent: {}
+[66.166243] (-) TimerEvent: {}
+[66.268230] (-) TimerEvent: {}
+[66.369624] (-) TimerEvent: {}
+[66.473793] (-) TimerEvent: {}
+[66.574700] (-) TimerEvent: {}
+[66.675660] (-) TimerEvent: {}
+[66.776659] (-) TimerEvent: {}
+[66.877682] (-) TimerEvent: {}
+[66.978664] (-) TimerEvent: {}
+[67.079649] (-) TimerEvent: {}
+[67.180656] (-) TimerEvent: {}
+[67.281599] (-) TimerEvent: {}
+[67.382543] (-) TimerEvent: {}
+[67.483490] (-) TimerEvent: {}
+[67.584462] (-) TimerEvent: {}
+[67.685298] (-) TimerEvent: {}
+[67.786185] (-) TimerEvent: {}
+[67.887109] (-) TimerEvent: {}
+[67.988147] (-) TimerEvent: {}
+[68.089133] (-) TimerEvent: {}
+[68.190065] (-) TimerEvent: {}
+[68.291063] (-) TimerEvent: {}
+[68.392023] (-) TimerEvent: {}
+[68.492983] (-) TimerEvent: {}
+[68.593925] (-) TimerEvent: {}
+[68.695015] (-) TimerEvent: {}
+[68.795947] (-) TimerEvent: {}
+[68.897013] (-) TimerEvent: {}
+[68.998490] (-) TimerEvent: {}
+[69.099844] (-) TimerEvent: {}
+[69.200818] (-) TimerEvent: {}
+[69.301842] (-) TimerEvent: {}
+[69.402792] (-) TimerEvent: {}
+[69.503772] (-) TimerEvent: {}
+[69.604737] (-) TimerEvent: {}
+[69.705739] (-) TimerEvent: {}
+[69.806806] (-) TimerEvent: {}
+[69.907738] (-) TimerEvent: {}
+[70.008719] (-) TimerEvent: {}
+[70.109704] (-) TimerEvent: {}
+[70.210717] (-) TimerEvent: {}
+[70.311652] (-) TimerEvent: {}
+[70.412643] (-) TimerEvent: {}
+[70.513563] (-) TimerEvent: {}
+[70.614616] (-) TimerEvent: {}
+[70.715815] (-) TimerEvent: {}
+[70.816826] (-) TimerEvent: {}
+[70.917752] (-) TimerEvent: {}
+[71.018729] (-) TimerEvent: {}
+[71.119719] (-) TimerEvent: {}
+[71.220667] (-) TimerEvent: {}
+[71.321652] (-) TimerEvent: {}
+[71.422595] (-) TimerEvent: {}
+[71.523532] (-) TimerEvent: {}
+[71.624523] (-) TimerEvent: {}
+[71.725458] (-) TimerEvent: {}
+[71.826455] (-) TimerEvent: {}
+[71.927893] (-) TimerEvent: {}
+[72.028838] (-) TimerEvent: {}
+[72.129786] (-) TimerEvent: {}
+[72.230807] (-) TimerEvent: {}
+[72.331949] (-) TimerEvent: {}
+[72.433495] (-) TimerEvent: {}
+[72.534399] (-) TimerEvent: {}
+[72.635272] (-) TimerEvent: {}
+[72.736165] (-) TimerEvent: {}
+[72.837101] (-) TimerEvent: {}
+[72.938023] (-) TimerEvent: {}
+[73.038968] (-) TimerEvent: {}
+[73.139912] (-) TimerEvent: {}
+[73.240987] (-) TimerEvent: {}
+[73.342078] (-) TimerEvent: {}
+[73.443561] (-) TimerEvent: {}
+[73.545134] (-) TimerEvent: {}
+[73.649046] (-) TimerEvent: {}
+[73.750172] (-) TimerEvent: {}
+[73.851748] (-) TimerEvent: {}
+[73.952667] (-) TimerEvent: {}
+[74.053928] (-) TimerEvent: {}
+[74.156355] (-) TimerEvent: {}
+[74.257362] (-) TimerEvent: {}
+[74.358424] (-) TimerEvent: {}
+[74.459445] (-) TimerEvent: {}
+[74.560488] (-) TimerEvent: {}
+[74.662022] (-) TimerEvent: {}
+[74.763038] (-) TimerEvent: {}
+[74.864214] (-) TimerEvent: {}
+[74.965817] (-) TimerEvent: {}
+[75.066863] (-) TimerEvent: {}
+[75.167924] (-) TimerEvent: {}
+[75.268963] (-) TimerEvent: {}
+[75.370186] (-) TimerEvent: {}
+[75.471065] (-) TimerEvent: {}
+[75.572046] (-) TimerEvent: {}
+[75.673127] (-) TimerEvent: {}
+[75.774632] (-) TimerEvent: {}
+[75.876074] (-) TimerEvent: {}
+[75.977053] (-) TimerEvent: {}
+[76.077967] (-) TimerEvent: {}
+[76.181557] (-) TimerEvent: {}
+[76.283104] (-) TimerEvent: {}
+[76.384623] (-) TimerEvent: {}
+[76.485723] (-) TimerEvent: {}
+[76.587130] (-) TimerEvent: {}
+[76.688067] (-) TimerEvent: {}
+[76.788953] (-) TimerEvent: {}
+[76.889885] (-) TimerEvent: {}
+[76.990836] (-) TimerEvent: {}
+[77.091776] (-) TimerEvent: {}
+[77.192749] (-) TimerEvent: {}
+[77.293709] (-) TimerEvent: {}
+[77.394618] (-) TimerEvent: {}
+[77.495676] (-) TimerEvent: {}
+[77.596607] (-) TimerEvent: {}
+[77.697564] (-) TimerEvent: {}
+[77.798528] (-) TimerEvent: {}
+[77.899516] (-) TimerEvent: {}
+[78.000534] (-) TimerEvent: {}
+[78.101584] (-) TimerEvent: {}
+[78.203322] (-) TimerEvent: {}
+[78.305591] (-) TimerEvent: {}
+[78.406478] (-) TimerEvent: {}
+[78.507468] (-) TimerEvent: {}
+[78.608433] (-) TimerEvent: {}
+[78.709493] (-) TimerEvent: {}
+[78.810552] (-) TimerEvent: {}
+[78.911527] (-) TimerEvent: {}
+[79.012562] (-) TimerEvent: {}
+[79.113802] (-) TimerEvent: {}
+[79.218555] (-) TimerEvent: {}
+[79.321218] (-) TimerEvent: {}
+[79.422109] (-) TimerEvent: {}
+[79.523090] (-) TimerEvent: {}
+[79.624053] (-) TimerEvent: {}
+[79.725034] (-) TimerEvent: {}
+[79.826027] (-) TimerEvent: {}
+[79.927173] (-) TimerEvent: {}
+[80.028531] (-) TimerEvent: {}
+[80.129427] (-) TimerEvent: {}
+[80.230306] (-) TimerEvent: {}
+[80.331364] (-) TimerEvent: {}
+[80.432726] (-) TimerEvent: {}
+[80.540643] (-) TimerEvent: {}
+[80.641738] (-) TimerEvent: {}
+[80.743124] (-) TimerEvent: {}
+[80.844091] (-) TimerEvent: {}
+[80.945041] (-) TimerEvent: {}
+[81.046029] (-) TimerEvent: {}
+[81.147020] (-) TimerEvent: {}
+[81.247975] (-) TimerEvent: {}
+[81.348925] (-) TimerEvent: {}
+[81.449971] (-) TimerEvent: {}
+[81.551761] (-) TimerEvent: {}
+[81.653093] (-) TimerEvent: {}
+[81.754599] (-) TimerEvent: {}
+[81.856162] (-) TimerEvent: {}
+[81.968689] (-) TimerEvent: {}
+[82.070548] (-) TimerEvent: {}
+[82.172593] (-) TimerEvent: {}
+[82.273512] (-) TimerEvent: {}
+[82.376649] (-) TimerEvent: {}
+[82.477579] (-) TimerEvent: {}
+[82.578557] (-) TimerEvent: {}
+[82.679644] (-) TimerEvent: {}
+[82.781166] (-) TimerEvent: {}
+[82.882245] (-) TimerEvent: {}
+[82.983169] (-) TimerEvent: {}
+[83.084138] (-) TimerEvent: {}
+[83.185214] (-) TimerEvent: {}
+[83.286797] (-) TimerEvent: {}
+[83.387882] (-) TimerEvent: {}
+[83.488993] (-) TimerEvent: {}
+[83.590239] (-) TimerEvent: {}
+[83.692346] (-) TimerEvent: {}
+[83.795632] (-) TimerEvent: {}
+[83.897551] (-) TimerEvent: {}
+[84.002035] (-) TimerEvent: {}
+[84.103049] (-) TimerEvent: {}
+[84.204169] (-) TimerEvent: {}
+[84.305621] (-) TimerEvent: {}
+[84.407884] (-) TimerEvent: {}
+[84.509166] (-) TimerEvent: {}
+[84.610675] (-) TimerEvent: {}
+[84.711517] (-) TimerEvent: {}
+[84.812426] (-) TimerEvent: {}
+[84.913415] (-) TimerEvent: {}
+[85.014693] (-) TimerEvent: {}
+[85.115628] (-) TimerEvent: {}
+[85.217054] (-) TimerEvent: {}
+[85.318544] (-) TimerEvent: {}
+[85.419428] (-) TimerEvent: {}
+[85.520611] (-) TimerEvent: {}
+[85.623370] (-) TimerEvent: {}
+[85.724760] (-) TimerEvent: {}
+[85.827313] (-) TimerEvent: {}
+[85.928264] (-) TimerEvent: {}
+[86.029234] (-) TimerEvent: {}
+[86.130186] (-) TimerEvent: {}
+[86.231161] (-) TimerEvent: {}
+[86.332098] (-) TimerEvent: {}
+[86.433019] (-) TimerEvent: {}
+[86.534186] (-) TimerEvent: {}
+[86.636041] (-) TimerEvent: {}
+[86.737334] (-) TimerEvent: {}
+[86.840725] (-) TimerEvent: {}
+[86.942032] (-) TimerEvent: {}
+[87.043015] (-) TimerEvent: {}
+[87.144428] (-) TimerEvent: {}
+[87.245525] (-) TimerEvent: {}
+[87.346793] (-) TimerEvent: {}
+[87.448223] (-) TimerEvent: {}
+[87.552566] (-) TimerEvent: {}
+[87.653430] (-) TimerEvent: {}
+[87.760587] (-) TimerEvent: {}
+[87.861718] (-) TimerEvent: {}
+[87.963234] (-) TimerEvent: {}
+[88.064430] (-) TimerEvent: {}
+[88.172664] (-) TimerEvent: {}
+[88.273664] (-) TimerEvent: {}
+[88.375005] (-) TimerEvent: {}
+[88.480503] (-) TimerEvent: {}
+[88.581489] (-) TimerEvent: {}
+[88.682638] (-) TimerEvent: {}
+[88.786190] (-) TimerEvent: {}
+[88.887517] (-) TimerEvent: {}
+[88.988483] (-) TimerEvent: {}
+[89.089399] (-) TimerEvent: {}
+[89.190299] (-) TimerEvent: {}
+[89.291204] (-) TimerEvent: {}
+[89.392131] (-) TimerEvent: {}
+[89.493370] (-) TimerEvent: {}
+[89.598994] (-) TimerEvent: {}
+[89.699935] (-) TimerEvent: {}
+[89.801002] (-) TimerEvent: {}
+[89.902288] (-) TimerEvent: {}
+[90.003183] (-) TimerEvent: {}
+[90.104072] (-) TimerEvent: {}
+[90.205505] (-) TimerEvent: {}
+[90.306876] (-) TimerEvent: {}
+[90.408169] (-) TimerEvent: {}
+[90.509177] (-) TimerEvent: {}
+[90.610867] (-) TimerEvent: {}
+[90.712957] (-) TimerEvent: {}
+[90.815265] (-) TimerEvent: {}
+[90.916128] (-) TimerEvent: {}
+[91.017505] (-) TimerEvent: {}
+[91.118699] (-) TimerEvent: {}
+[91.220040] (-) TimerEvent: {}
+[91.320973] (-) TimerEvent: {}
+[91.421923] (-) TimerEvent: {}
+[91.522921] (-) TimerEvent: {}
+[91.624629] (-) TimerEvent: {}
+[91.729004] (-) TimerEvent: {}
+[91.831305] (-) TimerEvent: {}
+[91.932224] (-) TimerEvent: {}
+[92.033390] (-) TimerEvent: {}
+[92.135344] (-) TimerEvent: {}
+[92.236899] (-) TimerEvent: {}
+[92.338753] (-) TimerEvent: {}
+[92.440709] (-) TimerEvent: {}
+[92.541719] (-) TimerEvent: {}
+[92.642975] (-) TimerEvent: {}
+[92.743991] (-) TimerEvent: {}
+[92.845116] (-) TimerEvent: {}
+[92.949767] (-) TimerEvent: {}
+[93.053608] (-) TimerEvent: {}
+[93.154703] (-) TimerEvent: {}
+[93.255953] (-) TimerEvent: {}
+[93.359974] (-) TimerEvent: {}
+[93.464585] (-) TimerEvent: {}
+[93.565473] (-) TimerEvent: {}
+[93.594510] (sub_guidage_c) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable guidage_sonar3\x1b[0m\n'}
+[93.665686] (-) TimerEvent: {}
+[93.770931] (-) TimerEvent: {}
+[93.872564] (-) TimerEvent: {}
+[93.976890] (-) TimerEvent: {}
+[94.080868] (-) TimerEvent: {}
+[94.182175] (-) TimerEvent: {}
+[94.285500] (-) TimerEvent: {}
+[94.387186] (-) TimerEvent: {}
+[94.488989] (-) TimerEvent: {}
+[94.592012] (-) TimerEvent: {}
+[94.693375] (-) TimerEvent: {}
+[94.794565] (-) TimerEvent: {}
+[94.896308] (-) TimerEvent: {}
+[95.004562] (-) TimerEvent: {}
+[95.108626] (-) TimerEvent: {}
+[95.210094] (-) TimerEvent: {}
+[95.311903] (-) TimerEvent: {}
+[95.415305] (-) TimerEvent: {}
+[95.516885] (-) TimerEvent: {}
+[95.617944] (-) TimerEvent: {}
+[95.721631] (-) TimerEvent: {}
+[95.823271] (-) TimerEvent: {}
+[95.924197] (-) TimerEvent: {}
+[96.025047] (-) TimerEvent: {}
+[96.125907] (-) TimerEvent: {}
+[96.227080] (-) TimerEvent: {}
+[96.330085] (-) TimerEvent: {}
+[96.431044] (-) TimerEvent: {}
+[96.532700] (-) TimerEvent: {}
+[96.635499] (-) TimerEvent: {}
+[96.739358] (-) TimerEvent: {}
+[96.844290] (-) TimerEvent: {}
+[96.947686] (-) TimerEvent: {}
+[97.048955] (-) TimerEvent: {}
+[97.149956] (-) TimerEvent: {}
+[97.251381] (-) TimerEvent: {}
+[97.352299] (-) TimerEvent: {}
+[97.432599] (sub_guidage_c) StdoutLine: {'line': b'[100%] Built target guidage_sonar3\n'}
+[97.452605] (-) TimerEvent: {}
+[97.492433] (sub_guidage_c) CommandEnded: {'returncode': 0}
+[97.552837] (-) TimerEvent: {}
+[97.653906] (-) TimerEvent: {}
+[97.755366] (-) TimerEvent: {}
+[97.856339] (-) TimerEvent: {}
+[97.957974] (-) TimerEvent: {}
+[97.985918] (sub_guidage_c) JobProgress: {'identifier': 'sub_guidage_c', 'progress': 'install'}
+[97.988048] (sub_guidage_c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c'], 'cwd': '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nemo'), ('SSH_AGENT_PID', '1629'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nemo'), ('OLDPWD', '/home/nemo'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2741'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nemo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nemo-desktop:@/tmp/.ICE-unix/1746,unix/nemo-desktop:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d6062c1_6d44_43a0_ae16_f84ee93ac18b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_guidage_c'), ('LC_ALL', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop_play:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_control:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/conversion_msgs:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_map:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_interface_arduino_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_etat_py:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_affichage:/opt/ros/humble')]), 'shell': False}
+[98.034941] (sub_guidage_c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[98.038193] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_base\n'}
+[98.042880] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_simple\n'}
+[98.047159] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_sonar1\n'}
+[98.051189] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_sonar2\n'}
+[98.055190] (sub_guidage_c) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_sonar3\n'}
+[98.058162] (-) TimerEvent: {}
+[98.158849] (sub_guidage_c) StdoutLine: {'line': b'-- Set runtime path of "/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/lib/sub_guidage_c/guidage_sonar3" to ""\n'}
+[98.159593] (-) TimerEvent: {}
+[98.161512] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch\n'}
+[98.164159] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/sub_guidage_simple_launch.py\n'}
+[98.164677] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/sub_guidage_sonar2_launch.py\n'}
+[98.165093] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/sub_guidage_base_launch.py\n'}
+[98.165500] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/__pycache__\n'}
+[98.166678] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/__pycache__/sub_guidage_base_launch.cpython-310.pyc\n'}
+[98.167881] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/__pycache__/sub_guidage_simple_launch.cpython-310.pyc\n'}
+[98.169107] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/sub_guidage_sonar3_launch.py\n'}
+[98.176716] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//launch/sub_guidage_sonar1_launch.py\n'}
+[98.177679] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//config\n'}
+[98.178478] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c//config/params.yaml\n'}
+[98.179284] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/ament_index/resource_index/package_run_dependencies/sub_guidage_c\n'}
+[98.180168] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/ament_index/resource_index/parent_prefix_path/sub_guidage_c\n'}
+[98.187071] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/environment/ament_prefix_path.sh\n'}
+[98.188255] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/environment/ament_prefix_path.dsv\n'}
+[98.189026] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/environment/path.sh\n'}
+[98.190147] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/environment/path.dsv\n'}
+[98.190613] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/local_setup.bash\n'}
+[98.191094] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/local_setup.sh\n'}
+[98.191590] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/local_setup.zsh\n'}
+[98.192043] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/local_setup.dsv\n'}
+[98.192620] (sub_guidage_c) StdoutLine: {'line': b'-- Installing: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.dsv\n'}
+[98.193237] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/ament_index/resource_index/packages/sub_guidage_c\n'}
+[98.193806] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/cmake/sub_guidage_cConfig.cmake\n'}
+[98.194360] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/cmake/sub_guidage_cConfig-version.cmake\n'}
+[98.196267] (sub_guidage_c) StdoutLine: {'line': b'-- Up-to-date: /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_guidage_c/share/sub_guidage_c/package.xml\n'}
+[98.200185] (sub_guidage_c) CommandEnded: {'returncode': 0}
+[98.259840] (-) TimerEvent: {}
+[98.362013] (-) TimerEvent: {}
+[98.463544] (-) TimerEvent: {}
+[98.565397] (-) TimerEvent: {}
+[98.666369] (-) TimerEvent: {}
+[98.767390] (-) TimerEvent: {}
+[98.869599] (-) TimerEvent: {}
+[98.886841] (sub_guidage_c) JobEnded: {'identifier': 'sub_guidage_c', 'rc': 0}
+[98.916851] (-) EventReactorShutdown: {}

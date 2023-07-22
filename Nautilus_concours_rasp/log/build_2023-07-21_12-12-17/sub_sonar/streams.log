@@ -1,0 +1,23 @@
+[10.068s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed
+[13.408s] running egg_info
+[13.415s] writing ../../build/sub_sonar/sub_sonar.egg-info/PKG-INFO
+[13.428s] writing dependency_links to ../../build/sub_sonar/sub_sonar.egg-info/dependency_links.txt
+[13.429s] writing entry points to ../../build/sub_sonar/sub_sonar.egg-info/entry_points.txt
+[13.429s] writing requirements to ../../build/sub_sonar/sub_sonar.egg-info/requires.txt
+[13.448s] writing top-level names to ../../build/sub_sonar/sub_sonar.egg-info/top_level.txt
+[13.448s] reading manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'
+[13.495s] writing manifest file '../../build/sub_sonar/sub_sonar.egg-info/SOURCES.txt'
+[13.496s] running build
+[13.497s] running build_py
+[13.503s] running install
+[13.537s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.537s]   warnings.warn(
+[13.538s] running install_lib
+[13.552s] running install_data
+[13.557s] running install_egg_info
+[13.577s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar-0.0.0-py3.10.egg-info' (and everything under it)
+[13.580s] Copying ../../build/sub_sonar/sub_sonar.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages/sub_sonar-0.0.0-py3.10.egg-info
+[13.597s] running install_scripts
+[13.907s] Installing sonar_scan script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/sub_sonar
+[13.915s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log'
+[14.141s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_sonar' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_sonar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_sonar build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_sonar/install.log --single-version-externally-managed

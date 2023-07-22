@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/sub_teleop/sub_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/sub_teleop/sub_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/sub_teleop/sub_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/sub_teleop/sub_teleop.egg-info/requires.txt
+writing top-level names to ../../build/sub_teleop/sub_teleop.egg-info/top_level.txt
+reading manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/sub_teleop/sub_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sub_teleop/sub_teleop.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/python3.10/site-packages/sub_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_twist_keyboard_vf script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+Installing teleop_twist_keyboard_vf2 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+Installing teleop_twist_keyboard_vf3 script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+Installing teleop_twist_keyboard_vf_gazebo script to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_teleop/lib/sub_teleop
+writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_teleop/install.log'

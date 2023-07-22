@@ -1,0 +1,22 @@
+[7.278s] Invoking command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_ekf build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log --single-version-externally-managed
+[11.006s] running egg_info
+[11.015s] writing ../../build/sub_ekf/sub_ekf.egg-info/PKG-INFO
+[11.017s] writing dependency_links to ../../build/sub_ekf/sub_ekf.egg-info/dependency_links.txt
+[11.018s] writing entry points to ../../build/sub_ekf/sub_ekf.egg-info/entry_points.txt
+[11.020s] writing requirements to ../../build/sub_ekf/sub_ekf.egg-info/requires.txt
+[11.034s] writing top-level names to ../../build/sub_ekf/sub_ekf.egg-info/top_level.txt
+[11.057s] reading manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'
+[11.066s] writing manifest file '../../build/sub_ekf/sub_ekf.egg-info/SOURCES.txt'
+[11.068s] running build
+[11.069s] running build_py
+[11.075s] running install
+[11.078s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.081s]   warnings.warn(
+[11.099s] running install_lib
+[11.114s] running install_data
+[11.126s] running install_egg_info
+[11.217s] removing '/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf-0.0.0-py3.10.egg-info' (and everything under it)
+[11.248s] Copying ../../build/sub_ekf/sub_ekf.egg-info to /home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages/sub_ekf-0.0.0-py3.10.egg-info
+[11.262s] running install_scripts
+[11.600s] writing list of installed files to '/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log'
+[11.981s] Invoked command in '/home/nemo/Documents/ROS/Nautilus_concours_rasp/src/sub_ekf' returned '0': PYTHONPATH=/home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/prefix_override:/home/nemo/Documents/ROS/Nautilus_concours_rasp/install/sub_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_ekf build --build-base /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/build install --record /home/nemo/Documents/ROS/Nautilus_concours_rasp/build/sub_ekf/install.log --single-version-externally-managed
